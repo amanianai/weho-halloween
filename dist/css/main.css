@@ -1,7 +1,7 @@
-/*
+/* 
  * Theme
 */
-/*
+/* 
  * Bootstrap Overrides
 */
 /*!
@@ -11652,11 +11652,6 @@ img {
   margin-bottom: 30px;
 }
 
-.section--contest .contest-copy p {
-  font-size: 1.3rem;
-  line-height: 1.8rem;
-}
-
 @media (min-width: 768px) {
   .section--contest .contest-copy h2 {
     font-size: 64px;
@@ -11687,7 +11682,6 @@ img {
 
 .section--contest .contest-copy .btn {
   margin-bottom: 10px;
-  font-size: 30px;
 }
 
 @media (min-width: 768px) {

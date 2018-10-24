@@ -28,10 +28,41 @@
   .intro-countdown-content {
     width: 100%;
     height: auto;
+    position: relative;
 
     @include media-breakpoint-up(sm) {
       width: 525px;
       height: 525px;
+    }
+  }
+}
+
+#countdown-timer {
+  color: white;
+  position: absolute;
+  top: 58.4%;
+  left: 36%;
+  transform: rotate(-10deg);
+  transform-origin: top left;
+  display: flex;
+
+  @include media-breakpoint-up(sm) {
+    top: 68.4%;
+    left: 36%;
+  }
+
+  .timer-date {
+    display: block;
+    margin-right: 20px;
+
+    &__value {
+      font-family: 'Gobold';
+      @include as-rem('font-size', 32px);
+      display: block;
+    }
+
+    &__unit {
+      @include as-rem('font-size', 14px);
     }
   }
 }

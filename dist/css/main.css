@@ -11454,6 +11454,7 @@ img {
 .section--intro-countdown .intro-countdown-content {
   width: 100%;
   height: auto;
+  position: relative;
 }
 
 @media (min-width: 576px) {
@@ -11461,6 +11462,44 @@ img {
     width: 525px;
     height: 525px;
   }
+}
+
+#countdown-timer {
+  color: white;
+  position: absolute;
+  top: 58.4%;
+  left: 36%;
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (min-width: 576px) {
+  #countdown-timer {
+    top: 68.4%;
+    left: 36%;
+  }
+}
+
+#countdown-timer .timer-date {
+  display: block;
+  margin-right: 20px;
+}
+
+#countdown-timer .timer-date__value {
+  font-family: 'Gobold';
+  font-size: 32px;
+  font-size: 2rem;
+  display: block;
+}
+
+#countdown-timer .timer-date__unit {
+  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .section--festival-info .festival-info-content {

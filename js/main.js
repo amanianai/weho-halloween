@@ -40,4 +40,31 @@ $(function () {
   var player = new Plyr('#video-player', {});
   window.player = player;
 
+  // Countdown timer
+  var countDownDate = new Date("Oct 31, 2018 00:00:00").getTime();
+
+  // Update the count down every 1 second
+  var x = setInterval(function () {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var completeText = "Today!";
+
+    // Display the result in the element with id="demo"
+    $('#countdown-timer').html('<span class="timer-date"><span class="timer-date__value">' + days + '</span><span class="timer-date__unit">Days</span></span><span class="timer-date"><span class="timer-date__value">' + hours + '</span><span class="timer-date__unit">Hours</span></span><span class="timer-date"><span class="timer-date__value">' + minutes + '</span><span class="timer-date__unit">Minutes</span></span>');
+
+    // If the count down is finished, write some text 
+    if (distance < 0) {
+      clearInterval(x);
+      $('#countdown-timer').html('<span class="timer-date"><span class="timer-date__value">' + completeText + '</span></span>');
+    }
+  }, 1000);
 });

@@ -1,7 +1,13 @@
 @font-face {
   font-family: 'Gobold';
-  src: url('../fonts/Gobold-Bold-Italic.otf');
+  src: url('../fonts/Gobold-Regular-Italic.otf');
   font-weight: 400;
+}
+
+body * {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* General */
@@ -13,6 +19,8 @@ h5,
 button {
   font-family: 'Gobold';
   font-style: italic;
+  font-weight: normal;
+  letter-spacing: 0.5px;
 }
 
 .h1,
@@ -23,6 +31,11 @@ button {
 .h6 {
   font-family: 'Roboto';
   font-style: normal;
+}
+
+h5,
+.h5 {
+  @include as-rem('font-size', 24px);
 }
 
 ul {
@@ -105,6 +118,10 @@ nav a {
 
 .text-yellow {
   color: #f8e71c;
+
+  @include hover {
+    color: #f8e71c;
+  }
 }
 
 /* section height */
@@ -137,4 +154,25 @@ nav a {
   font-size: 1.8em;
   line-height: 1.3em;
   margin-bottom: .5em;
+}
+
+.arrow-link {
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+
+  &:after {
+    margin-left: 1em;
+    content: '\f30b';
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+  }
 }

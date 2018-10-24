@@ -58,3 +58,11 @@
 .photo-gallery-slider {
   line-height: 0;
 }
+
+.insider-tips-slider {
+  .slick-arrow {
+    @include media-breakpoint-down(sm) {
+      top: 120%;
+    }
+  }
+}

@@ -11193,7 +11193,6 @@ a.plyr__control::after, a.plyr__control::before {
   font-weight: 400;
 }
 
-
 body {
   font-family: 'Roboto';
 }
@@ -11355,7 +11354,7 @@ a.btn {
 
 .arrow-link {
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;

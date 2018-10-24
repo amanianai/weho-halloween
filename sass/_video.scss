@@ -1,0 +1,51 @@
+.plyr {
+  width: 100%;
+  margin: auto 0;
+}
+
+.plyr--video .plyr__control.plyr__control--overlaid {
+  box-shadow: none;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border: 6px solid white;
+
+  @include media-breakpoint-up(lg) {
+    width: 140px;
+    height: 140px;
+    border: 10px solid white;
+  }
+
+  @include hover {
+    background: transparent;
+  }
+
+  svg {
+    height: 30px;
+    width: 30px;
+    left: 2px;
+    filter: none;
+    fill: white;
+
+    @include media-breakpoint-up(lg) {
+
+      height: 50px;
+      width: 50px;
+      left: 23px;
+    }
+  }
+}
+
+.plyr--video .plyr__control.plyr__tab-focus,
+.plyr--video .plyr__control:hover,
+.plyr--video .plyr__control[aria-expanded='true'] {
+  background: #9013fe;
+}
+
+.plyr--full-ui input[type='range'] {
+  color: #9013fe;
+}
+
+.plyr.plyr--stopped .plyr__controls {
+  display: none
+}

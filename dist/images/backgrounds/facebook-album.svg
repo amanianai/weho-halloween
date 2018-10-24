@@ -6,8 +6,9 @@
 	.st0{fill:#EE509A;}
 	.st1{fill:#2ADFDF;}
 	.st2{fill:#FFFFFF;}
-	.st3{font-family:'GoboldUplow';}
-	.st4{font-size:48px;}
+	.st3{font-family:'IM_FELL_English_SC';}
+	.st4{font-size:54px;}
+	.st5{letter-spacing:1;}
 </style>
 <title>Group 21</title>
 <desc>Created with Sketch.</desc>
@@ -19,7 +20,7 @@
 				c3.1-8.3,7.8-14.8,14.2-19.4c7.8-5.7,17.6-8.5,29.5-8.5l34.9,0.3v39.9h-25.3c-2.6,0-4.7,0.7-6.5,2.1c-2.2,2-3.4,5-3.4,9.1v24.2
 				H533z"/>
 			<g id="Group-39" transform="translate(0.000000, 146.000000)">
-				<text transform="matrix(1 0 0 1 314.1211 54)" class="st2 st3 st4">facebook album</text>
+				<text transform="matrix(1 0 0 1 293.1211 47)" class="st2 st3 st4 st5">facebook album</text>
 				<text transform="matrix(1 0 0 1 112 -188)" style="font-family:'GoboldUplow-Italic'; font-size:12px;">Lorem ipsum</text>
 				<path id="_xEB54_" class="st2" d="M681.1,36.6h32.5v8.7c0,0.6,0.1,0.9,0.4,1c0.3,0.1,0.6-0.1,1-0.5l10.7-10.7
 					c0.4-0.4,0.6-0.8,0.6-1.4s-0.2-1.1-0.6-1.4L715,21.4c-0.4-0.4-0.7-0.5-1-0.4c-0.3,0.1-0.4,0.4-0.4,1v8.7h-32.5

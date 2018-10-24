@@ -11600,9 +11600,9 @@ img {
 .section--events .events-content {
   background: url("../images/backgrounds/events.svg");
   background-size: cover;
-  background-position: -90px 10px;
+  background-position: 0px 10px;
   height: 100%;
-  padding: 90px 15px 50px;
+  padding: 240px 15px 50px;
 }
 
 @media (min-width: 992px) {

@@ -95,6 +95,8 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  font-weight: 400;
+  word-spacing: 1px;
 }
 
 abbr[title],
@@ -169,7 +171,8 @@ sup {
 }
 
 a {
-  color: #007bff;
+  /* color: #007bff; */
+  color: #000000;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -218,7 +221,7 @@ img {
   border-style: none;
 }
 
-svg {
+svg
   overflow: hidden;
   vertical-align: middle;
 }
@@ -9610,8 +9613,40 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: 400;
 }
 
-body {
-  font-family: 'Roboto';
+@font-face {
+  font-family: 'Gobold';
+  src: url("../fonts/Gobold-CUTS-Italic.otf.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Gobold CUTS';
+  src: url("../fonts/Gobold-CUTS-Italic.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Gobold Uplow';
+  src: url("../fonts/Gobold-Uplow-Italic.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Gobold Light Italic';
+  src: url("../fonts/Gobold-Light-Italic.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Gobold Thin Italic';
+  src: url("../fonts/Gobold-Thin-Italic.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Gobold Thin';
+  src: url("../fonts/Gobold-Thin.otf");
+  font-weight: 400;
 }
 
 body * {
@@ -9622,14 +9657,17 @@ body * {
 
 /* General */
 h1,
-h2,
+h2 {
+  font-family: 'Gobold Uplow';
+}
+
 h3,
 h4,
 h5,
 button,
 .btn {
-  font-family: 'Gobold';
-  font-style: italic;
+  font-family: 'Gobold Thin';
+  text-transform: capitalize;
   font-weight: normal;
   letter-spacing: 0.5px;
 }
@@ -9673,6 +9711,14 @@ nav a {
 /* Fonts */
 .gobold {
   font-family: 'Gobold';
+  font-style: italic;
+}
+.gobold-cuts {
+  font-family: 'Gobold CUTS';
+  font-style: italic;
+}
+.gobold-uplow {
+  font-family: 'Gobold CUTS';
   font-style: italic;
 }
 
@@ -9772,7 +9818,7 @@ a.btn {
 }
 
 .arrow-link {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
@@ -9781,7 +9827,7 @@ a.btn {
 }
 
 .arrow-link:after {
-  margin-left: 1em;
+  margin-left: .5em;
   content: '\F30B';
   display: inline-block;
   font-family: "Font Awesome 5 Free";
@@ -9790,13 +9836,6 @@ a.btn {
   text-rendering: auto;
   font-weight: 900;
   -webkit-font-smoothing: antialiased;
-}
-
-.copyright {
-  text-align: center;
-  color: black;
-  font-size: 14px;
-  font-size: 0.875rem;
 }
 
 .content-fixed-ar {
@@ -9846,7 +9885,7 @@ img {
 }
 
 .section__title {
-  font-family: 'Gobold';
+  /* font-family: 'Gobold'; */
   margin-bottom: .75em;
 }
 
@@ -9921,9 +9960,10 @@ img {
 }
 
 .section--things-to-know p {
-  font-size: 14px;
-  font-size: 0.875rem;
-  line-height: 1.36;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.45;
+  color: #888888;
   margin: 15px 0 40px;
 }
 
@@ -9986,12 +10026,12 @@ img {
 
 @media (min-width: 768px) {
   .section--events .events-content {
-    padding: 195px 15px 100px;
+    padding: 125px 15px 100px;
   }
 }
 
 .section--events .events-content__inner {
-  max-width: 450px;
+  max-width: 475px;
   margin: 0 auto;
 }
 
@@ -10014,21 +10054,26 @@ img {
 
 .section--events .events-list li {
   line-height: 3em;
+  margin-bottom: 2em;
 }
 
 .section--events .events-list li h5 {
   color: #ffffff;
   line-height: 1.4em;
+  font-size: 1.25em;
 }
 
 .section--events .events-list li p {
   color: #50e3c2;
+  font-weight: 500;
   line-height: 1em;
   margin: 0 0 1.2em;
+  font-size: 1em;
 }
 
 .section--events .events-list li p span {
-  color: #111111;
+  color: #960e4e;
+  font-weight: 500;
 }
 
 .section--insider-tips {
@@ -10046,6 +10091,9 @@ img {
 }
 
 .section--insider-tips h5 {
+  font-family: 'Roboto';
+  letter-spacing: 0;
+  font-style: none;
   color: #4a4a4a;
   margin-bottom: 20px;
 }
@@ -10065,9 +10113,9 @@ img {
   padding: 10px 0;
 }
 
-.section--insider-tips .arrow-link {
+/* .section--insider-tips .arrow-link {
   color: #7e3beb;
-}
+} */
 
 .section--contest {
   background: url("../images/backgrounds/contest.svg");
@@ -10127,6 +10175,10 @@ img {
   }
 }
 
+.section--contest .contest-copy a {
+  text-decoration: none;
+}
+
 .section--contest .contest-copy .btn {
   margin-bottom: 10px;
 }
@@ -10167,70 +10219,18 @@ img {
   }
 }
 
-.section--connect .connect-links {
-  padding: 30px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 100%;
-}
-
-.nav--footer-menu .nav-link {
-  color: black;
-  font-weight: bold;
-}
-
-.nav--social-menu {
-  margin-top: 30px;
-}
-
-@media (min-width: 768px) {
-  .nav--social-menu {
-    margin-top: 90px;
-  }
-}
-
-.nav--social-menu .nav-link {
-  color: #9013fe;
-}
-
-.nav--connect-menu {
-  -ms-flex-item-align: center;
-      align-self: center;
-}
-
-.nav--connect-menu .nav-link {
-  font-family: 'Gobold';
-  text-transform: uppercase;
-  font-size: 18px;
-  font-size: 1.125rem;
-  color: white;
-}
-
-@media (min-width: 768px) {
-  .nav--connect-menu .nav-link {
-    font-size: 24px;
-    font-size: 1.5rem;
-  }
-}
-
-@media (min-width: 992px) {
-  .nav--connect-menu .nav-link {
-    font-size: 36px;
-    font-size: 2.25rem;
-  }
-}
-
-.nav .nav-link {
+/* footer */
+footer a {
   text-decoration: none;
 }
 
-/* footer */
-.footer {
-  padding: 64px 0;
+footer h1,
+footer h2,
+footer h3,
+footer h4,
+footer h5 {
+  font-family: 'Roboto';
+  font-style: normal;
 }
 
 .photo-gallery-slider,

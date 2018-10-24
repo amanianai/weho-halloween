@@ -10234,6 +10234,12 @@ img {
 .photo-gallery-slider,
 .insider-tips-slider {
   position: relative;
+  display: none;
+}
+
+.photo-gallery-slider.slick-initialized,
+.insider-tips-slider.slick-initialized {
+  display: block;
 }
 
 .photo-gallery-slider .slick-arrow,

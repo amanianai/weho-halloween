@@ -1,6 +1,7 @@
 @import "variables";
 @import "~bootstrap/scss/bootstrap";
-@import '~slick-carousel/slick/slick.scss';
+@import '~slick-carousel/slick/slick';
+@import '~plyr/src/sass/plyr';
 @import "mixins";
 @import 'typography';
 @import 'base';
@@ -8,3 +9,4 @@
 @import 'nav';
 @import 'footer';
 @import 'slider';
+@import 'video';

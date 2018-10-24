@@ -1,5 +1,6 @@
 require('bootstrap');
 require('slick-carousel');
+var Plyr = require('plyr');
 
 $(function () {
   // Photo Gallery Slider
@@ -34,4 +35,9 @@ $(function () {
     prevArrow: prevArrowHtml,
     nextArrow: nextArrowHtml
   });
+
+  // Video Player
+  var player = new Plyr('#video-player', {});
+  window.player = player;
+
 });

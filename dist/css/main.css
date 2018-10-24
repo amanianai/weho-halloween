@@ -11695,6 +11695,11 @@ img {
   }
 }
 
+.section--contest .contest-copy p {
+  font-size: 1.1em;
+  line-height: 1.4em;
+}
+
 @media (min-width: 768px) {
   .section--contest .contest-copy p {
     max-width: 370px;

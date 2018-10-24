@@ -11169,6 +11169,30 @@ a.plyr__control::after, a.plyr__control::before {
   font-weight: 400;
 }
 
+@font-face {
+  font-family: 'Gobold Thin';
+  src: url("../fonts/Gobold-Thin.otf.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Gobold';
+  src: url("../fonts/Gobold-Regular-Italic.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Gobold';
+  src: url("../fonts/Gobold-Regular-Italic.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Gobold';
+  src: url("../fonts/Gobold-Regular-Italic.otf");
+  font-weight: 400;
+}
+
 body {
   font-family: 'Roboto';
 }
@@ -11329,7 +11353,7 @@ a.btn {
 }
 
 .arrow-link {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
@@ -11574,6 +11598,8 @@ img {
 .section--events .events-list li h5 {
   color: #ffffff;
   line-height: 1.4em;
+  font-size: 1.2rem;
+  font-family: "GoBold Thin";
 }
 
 .section--events .events-list li p {

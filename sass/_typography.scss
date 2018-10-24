@@ -1,0 +1,140 @@
+@font-face {
+  font-family: 'Gobold';
+  src: url('../fonts/Gobold-Bold-Italic.otf');
+  font-weight: 400;
+}
+
+/* General */
+h1,
+h2,
+h3,
+h4,
+h5,
+button {
+  font-family: 'Gobold';
+  font-style: italic;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Roboto';
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #9b9b9b;
+  margin: 20px 0;
+}
+
+a {
+  text-decoration: underline;
+}
+
+nav a {
+  text-decoration: none;
+  color: #555;
+}
+
+/* Fonts */
+.gobold {
+  font-family: 'Gobold';
+  font-style: italic;
+}
+
+/* colors */
+.bg-bluegreen {
+  background: #2adfdf;
+}
+
+.bg-pink {
+  background: #ee509a;
+}
+
+.bg-purple {
+  background: #7e3beb;
+}
+
+.bg-gray {
+  background: #f5f5f5;
+}
+
+.bg-black {
+  background: #111111;
+}
+
+.bg-white {
+  background: #ffffff;
+}
+
+.bg-yellow {
+  background: #f8e71c;
+}
+
+.text-bluegreen {
+  color: #2adfdf;
+}
+
+.text-pink {
+  color: #ee509a;
+}
+
+.text-purple {
+  color: #7e3beb;
+}
+
+.text-gray {
+  color: #f5f5f5;
+}
+
+.text-black {
+  color: #111111;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-yellow {
+  color: #f8e71c;
+}
+
+/* section height */
+.height-500 {
+  min-height: 500px;
+}
+
+.height-800 {
+  max-height: 800px;
+  min-height: 800px;
+}
+
+.height-300 {
+  min-height: 300px;
+}
+
+.md-spacer {
+  display: block;
+  height: 40px;
+}
+
+//.btn {font-family: }
+.btn.bg-black {
+  color: #fff;
+  background: #000;
+}
+
+
+.large-li ul li {
+  font-size: 1.8em;
+  line-height: 1.3em;
+  margin-bottom: .5em;
+}

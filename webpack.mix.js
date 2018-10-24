@@ -26,6 +26,7 @@ if (mix.inProduction()) {
       'dist/js/{*,**/*}.js',
       'index.html'
     ],
-    proxy: 'localhost:888/weho-halloween'
+    proxy: false,
+    server: true
   });
 }

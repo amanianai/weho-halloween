@@ -14,137 +14,95 @@
   <link href="dist/css/main.css" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
     crossorigin="anonymous">
-
-  <style>
-    .flexible-img-full img {
-        display: block;
-        margin: 0 auto;
-        width: 100%;
-      }
-      img {
-        height: auto;
-        max-width: 100%;
-      }
-      .flexible-img-full {
-        position: relative;
-      }
-    </style>
-
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-black">
-    <a class="navbar-brand" href="#">Visit West Hollywood</a>
-    <button class="navbar-toggler text-yellow" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-        </ul>
-      </div> -->
-  </nav>
-
   <!-- masthead header-->
-  <div class="">
-    <div class="row no-gutters" style="background: url(images/backgrounds/header-left.svg); background-size: cover; max-height: 500px;">
-      <div class="col">
-      </div>
-      <div class="col-xl-3 col-md-3 col-sm-12 col-xs-12">
-        <img src="images/backgrounds/header-right.svg" class="img-fluid">
+  <section id="intro-countdown" class="section section--intro-countdown">
+    <div class="section__inner">
+      <div class="intro-countdown-content">
+        <img src="dist/images/backgrounds/header-right.svg" class="img-fluid">
       </div>
     </div>
-  </div>
+  </section>
   <!-- masthead header / end-->
 
-
   <!-- full-width high res photo-->
-  <div class="flexible-img-full">
-    <img src="images/photos/9.jpg" width="1024" height="683">
-  </div>
+  <section id="featured-image" class="section section--featured-image">
+    <div class="flexible-img-full">
+      <img src="dist/images/photos/9.jpg">
+    </div>
+  </section>
 
   <!-- full-width high res photo / end-->
 
 
-
-  <div class="row no-gutters" style="max-height: 800px;">
-    <!-- event information -->
-    <div class="col-xl-6 col-md-6 col-sm-12 col-xs-12 flexible-img-full">
-      <img src="images/backgrounds/info.svg" class="img-fluid">
+  <section id="festival-info" class="section section--festival-info">
+    <div class="row no-gutters">
+      <div class="col-md-6">
+        <div class="festival-info-content content-fixed-ar">
+          <div class="content-fixed-ar__inner">
+            <img src="dist/images/backgrounds/info.svg">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="festival-info-content content-fixed-ar">
+          <div class="content-fixed-ar__inner">
+            <img src="dist/images/backgrounds/map.svg">
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- event information / end-->
-    <!-- map -->
-    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 flexible-img-full">
-      <img src="images/backgrounds/map.svg" class="img-fluid">
-    </div>
-    <!-- map / end-->
-  </div>
+  </section>
 
   <!-- photo gallery -->
-  <div id="photo-gallery" class="photo-gallery">
+  <section id="photo-gallery" class="section section--photo-gallery">
     <div class="photo-gallery-slider">
       <div class="gallery-item">
         <div class="gallery-item__inner">
-          <img class="d-block w-100" src="images/photos/album/3.jpg" alt="First slide">
+          <img class="d-block w-100" src="dist/images/photos/album/3.jpg" alt="First slide">
         </div>
       </div>
       <div class="gallery-item">
         <div class="gallery-item__inner">
-          <img class="d-block w-100" src="images/photos/album/5.jpg" alt="Second slide">
+          <img class="d-block w-100" src="dist/images/photos/album/5.jpg" alt="Second slide">
         </div>
       </div>
       <div class="gallery-item">
         <div class="gallery-item__inner">
-          <img class="d-block w-100" src="images/photos/album/11.jpg" alt="Third slide">
+          <img class="d-block w-100" src="dist/images/photos/album/11.jpg" alt="Third slide">
         </div>
       </div>
       <div class="gallery-item">
         <div class="gallery-item__inner">
-          <img class="d-block w-100" src="images/photos/album/5.jpg" alt="Fourth slide">
+          <img class="d-block w-100" src="dist/images/photos/album/5.jpg" alt="Fourth slide">
         </div>
       </div>
       <div class="gallery-item">
         <div class="gallery-item__inner">
-          <img class="d-block w-100" src="images/photos/album/3.jpg" alt="Third slide">
+          <img class="d-block w-100" src="dist/images/photos/album/3.jpg" alt="Third slide">
         </div>
       </div>
       <div class="gallery-item">
         <div class="gallery-item__inner">
-          <img class="d-block w-100" src="images/photos/album/11.jpg" alt="Fourth slide">
+          <img class="d-block w-100" src="dist/images/photos/album/11.jpg" alt="Fourth slide">
         </div>
       </div>
     </div>
-  </div>
+  </section>
   <!-- photo gallery / end-->
 
 
   <!-- things to know -->
-  <div id="things-to-know" class="section" style="background: url(images/backgrounds/things-to-know.svg); background-size: cover; height: 1092px;">
-    <h1 class="section-title text-center text-pink">Things to Know</h1>
+  <section id="things-to-know" class="section section--things-to-know">
+    <h1 class="section__title text-center text-pink">Things to Know</h1>
     <div class="md-spacer"></div>
-    <div class="container">
-      <div class="row justify-content-sm-center">
-        <div class="col-lg-4 col-sm-12">
-          <ul class="">
+    <div class="things-to-know-content container">
+      <div class="row no-gutters">
+        <div class="col-md-6">
+          <ul class="things-to-know-list things-to-know-list--left">
             <li>
               <h4>no backbacks, camera bags or totes</h4>
               <p>For everyone’s safety, please carry items in clear plastic bags. (Or, just carry an ID and credit card
@@ -162,8 +120,8 @@
             </li>
           </ul>
         </div>
-        <div class="col-lg-4 col-sm-12">
-          <ul class="">
+        <div class="col-md-6">
+          <ul class="things-to-know-list things-to-know-list--right">
             <li>
               <h4>admission is free, no tickets required</h4>
               <p>The admission is free and no tickets are required, but there are some guidelines you may want to be
@@ -183,58 +141,58 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
   <!-- things to know / end-->
 
 
-  <!-- photo gallery -->
-  <div id="events" class="bg-black">
-    <div class="row no-gutter align-items-center ">
-      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12" style="background: url(images/backgrounds/events.svg); background-size: cover;">
-        <div class="row justify-content-sm-center">
-          <div class="col-xl-6 col-md-6 ">
-            <ul class="events">
-              <li>
-                <h5>LGBT Halloween Event Wednesday October 31st FREE</h5>
-                <p>Grafton on Sunset | <span>October 31 @ 7PM-12AM</span></p>
-              </li>
-              <li>
-                <h5>La Boheme Celebrates Halloween</h5>
-                <p>La Boheme | <span>October 31 @ 9PM-2AM</span></p>
-              </li>
-              <li>
-                <h5>Rainbow’s Annual Halloween Costume Party</h5>
-                <p>Rainbow Bar and Grill | <span>October 29 @ 7PM </span></p>
-              </li>
-              <li>
-                <h5>Halloween Underworld Carnival at EP&LP</h5>
-                <p>E.P & L.P | <span>October 27 @ 8PM-2AM</span></p>
-              </li>
-              <li>
-                <h5>Halloween Show!</h5>
-                <p>State Social House | <span>October 25 @ 6:30PM-9:30PM </span></p>
-              </li>
-              <li>
-                <h5>HollyWoodstock: Halloween Party</h5>
-                <p>Skybar at Mondrian | <span>October 26 @ 9PM-2AM </span></p>
-              </li>
-            </ul>
-            <h4 class="text-yellow">See all the partaayyyyyyys --- ></h4>
+  <!-- events -->
+  <section id="events" class="section section--events">
+    <div class="row no-gutter">
+      <div class="col-md-6">
+        <div class="events-content container">
+          <ul class="events-list">
+            <li>
+              <h5>LGBT Halloween Event Wednesday October 31st FREE</h5>
+              <p>Grafton on Sunset | <span>October 31 @ 7PM-12AM</span></p>
+            </li>
+            <li>
+              <h5>La Boheme Celebrates Halloween</h5>
+              <p>La Boheme | <span>October 31 @ 9PM-2AM</span></p>
+            </li>
+            <li>
+              <h5>Rainbow’s Annual Halloween Costume Party</h5>
+              <p>Rainbow Bar and Grill | <span>October 29 @ 7PM </span></p>
+            </li>
+            <li>
+              <h5>Halloween Underworld Carnival at EP&LP</h5>
+              <p>E.P & L.P | <span>October 27 @ 8PM-2AM</span></p>
+            </li>
+            <li>
+              <h5>Halloween Show!</h5>
+              <p>State Social House | <span>October 25 @ 6:30PM-9:30PM </span></p>
+            </li>
+            <li>
+              <h5>HollyWoodstock: Halloween Party</h5>
+              <p>Skybar at Mondrian | <span>October 26 @ 9PM-2AM </span></p>
+            </li>
+          </ul>
+          <a href="#" class="text-yellow arrow-link">See all the partaayyyyyyys</a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="events-video">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/I8yIgfeu68k" allowfullscreen></iframe>
           </div>
         </div>
       </div>
-      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 bg-black">
-        <div class="col-md-12 embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/I8yIgfeu68k" allowfullscreen></iframe>
-        </div>
-      </div>
     </div>
-  </div>
-  <!-- photo gallery / end-->
+  </section>
+  <!-- events / end-->
 
   <!-- insider tips -->
-  <div id="insider-tips" class="section insider-tips" style="background: url(images/backgrounds/insider-tips.svg); background-size: cover; height: 1090px;">
-    <h1 class="section-title text-center text-purple">Insider Tips</h1>
+  <section id="insider-tips" class="section section--insider-tips" style="background: url(dist/images/backgrounds/insider-tips.svg); background-size: cover; height: 1090px;">
+    <h1 class="section__title text-center text-purple">Insider Tips</h1>
     <div class="insider-tips-slider">
       <div class="tips-item">
         <div class="container">
@@ -242,7 +200,7 @@
             <h5 class="text-center">FOOD OPTIONS</h5>
             <div class="row justify-content-sm-center">
               <div class="col-xl-6 col-lg-6 col-xs-6 col-xs-6">
-                <img src="images/photos/1.jpg" class="img-fluid">
+                <img src="dist/images/photos/1.jpg" class="img-fluid">
                 <p>You can get your grub on at the many food trucks parked along
                   the street, or drop into any of our Santa Monica Boulevard
                   restaurants still serving!</p>
@@ -258,7 +216,7 @@
             <h5 class="text-center">BOOTH OPTIONS</h5>
             <div class="row justify-content-sm-center">
               <div class="col-xl-6 col-lg-6 col-xs-6 col-xs-6">
-                <img src="images/photos/1.jpg" class="img-fluid">
+                <img src="dist/images/photos/1.jpg" class="img-fluid">
                 <p>You can get your grub on at the many food trucks parked along
                   the street, or drop into any of our Santa Monica Boulevard
                   restaurants still serving!</p>
@@ -269,13 +227,13 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
   <!-- insider tips / end-->
 
 
 
   <!-- insider tips -->
-  <div id="contest" class="" style="background: url(images/backgrounds/contest.svg); background-size: cover;">
+  <section id="contest" class="section section--contest" style="background: url(dist/images/backgrounds/contest.svg); background-size: cover;">
     <div class="container-fluid section">
       <div class="row justify-content-sm-center align-items-center">
         <div class="col-xl-4 col-md-5 col-sm-5 col-xs-5" style="z-index: 999;">
@@ -293,11 +251,11 @@
           </div>
         </div>
         <div class="col-xl-4 col-md-5 col-sm-5 col-xs-5">
-          <img src="images/photos/album/11.jpg" class="rounded-circle img-fluid" />
+          <img src="dist/images/photos/album/11.jpg" class="rounded-circle img-fluid" />
         </div>
       </div>
     </div>
-  </div>
+  </section>
   <!-- insider tips / end-->
 
 
@@ -307,10 +265,10 @@
   <!-- photo gallery -->
   <div class="row no-gutters">
     <div class="col-xl-6 col-md-6 col-sm-12 col-xs-12 flexible-img-full">
-      <img src="images/backgrounds/photostream.svg" class="img-fluid">
+      <img src="dist/images/backgrounds/photostream.svg" class="img-fluid">
     </div>
     <div class="col-xl-6 col-md-6 col-sm-12 col-xs-12 flexible-img-full">
-      <img src="images/backgrounds/facebook-album.svg" class="img-fluid">
+      <img src="dist/images/backgrounds/facebook-album.svg" class="img-fluid">
     </div>
   </div>
   <!-- photo gallery / end-->
@@ -319,7 +277,7 @@
 
   <!-- insider tips -->
   <div class="section">
-    <h1 class="section-title text-center text-purple"></h1>
+    <h1 class="section__title text-center text-purple"></h1>
     <div class="container">
       <div class="row justify-content-sm-center height-500">
         <div class="col-md-5">
@@ -334,10 +292,10 @@
   <div class="">
     <div class="row no-gutters">
       <div class="col-xl-6 col-md-6 col-sm-12 col-xs-12 flexible-img-full">
-        <img src="images/backgrounds/footer-left-section.svg" class="img-fluid">
+        <img src="dist/images/backgrounds/footer-left-section.svg" class="img-fluid">
       </div>
       <div class="col-md-6 bg-black flexible-img-full align-items-center">
-        <!-- <img src="images/svg/weho.png" class="img-fluid"> -->
+        <!-- <img src="dist/images/svg/weho.png" class="img-fluid"> -->
       </div>
     </div>
   </div>

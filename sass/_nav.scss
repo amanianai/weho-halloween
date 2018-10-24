@@ -1,0 +1,43 @@
+.nav {
+  &--footer-menu {
+    .nav-link {
+      color: black;
+      font-weight: bold;
+    }
+  }
+
+  &--social-menu {
+    margin-top: 30px;
+
+    @include media-breakpoint-up(md) {
+      margin-top: 90px;
+    }
+
+    .nav-link {
+      color: #9013fe;
+    }
+  }
+
+  &--connect-menu {
+    align-self: center;
+
+    .nav-link {
+      font-family: 'Gobold';
+      text-transform: uppercase;
+      @include as-rem('font-size', 18px);
+      color: white;
+
+      @include media-breakpoint-up(md) {
+        @include as-rem('font-size', 24px);
+      }
+
+      @include media-breakpoint-up(lg) {
+        @include as-rem('font-size', 36px);
+      }
+    }
+  }
+
+  .nav-link {
+    text-decoration: none;
+  }
+}

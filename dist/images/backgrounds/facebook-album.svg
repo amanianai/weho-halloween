@@ -1,21 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="960px" height="820px" viewBox="0 0 960 820" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 21</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g transform="translate(-960.000000, -6771.000000)" id="Group-21">
-            <g transform="translate(960.000000, 6771.000000)">
-                <rect id="Image" fill="#EE509A" x="0" y="0" width="960" height="820"></rect>
-                <path d="M533,369.625143 L528.862069,410.633143 L497.310345,410.633143 L497.310345,527 L450.241379,527 L450.241379,410.633143 L428,410.633143 L428,369.625143 L450.241379,369.625143 L450.241379,342.996571 C450.241379,335.363009 451.448264,328.350889 453.862069,321.96 C456.965533,313.616339 461.706865,307.136785 468.086207,302.521143 C475.844866,296.840353 485.672354,294 497.568966,294 L532.482759,294.266286 L532.482759,334.209143 L507.137931,334.209143 C504.551711,334.209143 502.39656,334.919231 500.672414,336.339429 C498.431023,338.2922 497.310345,341.310075 497.310345,345.393143 L497.310345,369.625143 L533,369.625143 Z" id="" fill="#2ADFDF"></path>
-                <g id="Group-39" transform="translate(0.000000, 146.000000)" fill="#FFFFFF">
-                    <text id="facebook-album" font-family="GoboldItalic-Italic, Gobold Italic" font-size="48" font-style="italic" font-weight="bold">
-                        <tspan x="314.121094" y="54">facebook album</tspan>
-                    </text>
-                    <path d="M724.336247,36.5947566 L691.795247,36.5947566 L691.795247,45.2828875 C691.795247,45.8620991 691.650447,46.2043554 691.360841,46.3096666 C691.071235,46.4149778 690.742142,46.2570133 690.373553,45.8357685 L679.631864,35.0940794 C679.210619,34.7254902 679,34.2515969 679,33.6723853 C679,33.0931737 679.210619,32.6192803 679.631864,32.2506911 L690.373553,21.430019 C690.742142,21.0614298 691.071235,20.9297928 691.360841,21.035104 C691.650447,21.1404152 691.795247,21.4826715 691.795247,22.0618831 L691.795247,30.750014 L724.336247,30.750014 C724.915458,30.750014 725.402515,30.9474695 725.797432,31.3423865 C726.192349,31.7373036 726.389805,32.2243606 726.389805,32.8035722 L726.389805,34.6201814 C726.389805,35.1467374 726.192349,35.607467 725.797432,36.002384 C725.402515,36.397301 724.915458,36.5947566 724.336247,36.5947566 Z" id="" transform="translate(702.694902, 33.670630) scale(1, -1) rotate(180.000000) translate(-702.694902, -33.670630) "></path>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 960 820" style="enable-background:new 0 0 960 820;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EE509A;}
+	.st1{fill:#2ADFDF;}
+	.st2{fill:#FFFFFF;}
+	.st3{font-family:'GoboldUplow';}
+	.st4{font-size:48px;}
+</style>
+<title>Group 21</title>
+<desc>Created with Sketch.</desc>
+<g id="Homepage">
+	<g id="Group-21" transform="translate(-960.000000, -6771.000000)">
+		<g transform="translate(960.000000, 6771.000000)">
+			<rect id="Image" class="st0" width="960" height="820"/>
+			<path id="_xEE08_" class="st1" d="M533,369.6l-4.1,41h-31.6V527h-47.1V410.6H428v-41h22.2V343c0-7.6,1.2-14.6,3.6-21
+				c3.1-8.3,7.8-14.8,14.2-19.4c7.8-5.7,17.6-8.5,29.5-8.5l34.9,0.3v39.9h-25.3c-2.6,0-4.7,0.7-6.5,2.1c-2.2,2-3.4,5-3.4,9.1v24.2
+				H533z"/>
+			<g id="Group-39" transform="translate(0.000000, 146.000000)">
+				<text transform="matrix(1 0 0 1 314.1211 54)" class="st2 st3 st4">facebook album</text>
+				<text transform="matrix(1 0 0 1 112 -188)" style="font-family:'GoboldUplow-Italic'; font-size:12px;">Lorem ipsum</text>
+				<path id="_xEB54_" class="st2" d="M681.1,36.6h32.5v8.7c0,0.6,0.1,0.9,0.4,1c0.3,0.1,0.6-0.1,1-0.5l10.7-10.7
+					c0.4-0.4,0.6-0.8,0.6-1.4s-0.2-1.1-0.6-1.4L715,21.4c-0.4-0.4-0.7-0.5-1-0.4c-0.3,0.1-0.4,0.4-0.4,1v8.7h-32.5
+					c-0.6,0-1.1,0.2-1.5,0.6s-0.6,0.9-0.6,1.5v1.8c0,0.5,0.2,1,0.6,1.4S680.5,36.6,681.1,36.6z"/>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>

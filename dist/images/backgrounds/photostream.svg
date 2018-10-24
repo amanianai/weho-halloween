@@ -6,11 +6,11 @@
     <defs></defs>
     <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g transform="translate(0.000000, -6771.000000)" id="Group-38">
-            <g transform="translate(0.000000, 6771.000000)">
-                <g id="11.-photo-gallery" fill="#2ADFDF">
+            <g transform="translate(-16.000000, 6771.000000)">
+                <g id="11.-photo-gallery" transform="translate(16.000000, 0.000000)" fill="#2ADFDF">
                     <rect id="Background" x="0" y="-4.54747351e-13" width="960" height="820"></rect>
                 </g>
-                <g id="Group-37" transform="translate(180.000000, 133.000000)" fill="#8F0848" fill-opacity="0.205474411">
+                <g id="Group-37" transform="translate(196.000000, 133.000000)" fill="#8F0848" fill-opacity="0.205474411">
                     <g id="map" transform="translate(202.000000, 0.000000)">
                         <rect id="Rectangle-3" x="0" y="0" width="197" height="162"></rect>
                     </g>
@@ -27,9 +27,11 @@
                         <rect id="Rectangle-3" x="0" y="0" width="299" height="252"></rect>
                     </g>
                 </g>
-                <text id="2017-photostream" font-family="GoboldItalic-Italic, Gobold Italic" font-size="48" font-style="italic" font-weight="bold" fill="#7E3BEB">
-                    <tspan x="288.9375" y="659">2017 photostream </tspan>
+                <text id="2017-photostream" font-family="GoboldUplow-Italic, Gobold Uplow" font-size="48" font-style="italic" font-weight="bold" fill="#7E3BEB">
+                    <tspan x="296.800781" y="659">2017 photostream</tspan>
+                    <tspan x="663.199219" y="659"> </tspan>
                 </text>
+                <path d="M742.471942,642.577554 L714.140165,642.577554 L714.140165,650.141863 C714.140165,650.646153 714.014094,650.944138 713.761949,651.035827 C713.509804,651.127516 713.22328,650.989985 712.902369,650.623228 L703.550132,641.270991 C703.183375,640.95008 703,640.537485 703,640.033195 C703,639.528905 703.183375,639.116311 703.550132,638.795399 L712.902369,629.374395 C713.22328,629.053484 713.509804,628.938874 713.761949,629.030563 C714.014094,629.122252 714.140165,629.420237 714.140165,629.924527 L714.140165,637.488837 L742.471942,637.488837 C742.976232,637.488837 743.400288,637.660751 743.744122,638.004585 C744.087956,638.348419 744.25987,638.772474 744.25987,639.276764 L744.25987,640.858393 C744.25987,641.316838 744.087956,641.717972 743.744122,642.061805 C743.400288,642.405639 742.976232,642.577554 742.471942,642.577554 Z" id="" fill="#9013FE" transform="translate(723.629935, 640.031667) scale(1, -1) rotate(180.000000) translate(-723.629935, -640.031667) "></path>
             </g>
         </g>
     </g>

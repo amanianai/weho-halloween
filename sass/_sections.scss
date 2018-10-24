@@ -223,3 +223,91 @@
     color: #7e3beb;
   }
 }
+
+.section--contest {
+  background: url('../images/backgrounds/contest.svg');
+  background-size: cover;
+  padding: 50px 0 50px;
+
+  @include media-breakpoint-up(lg) {
+    padding: 130px 0 140px;
+  }
+
+  .contest-content {
+    padding: 0 15px;
+    max-width: 850px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .contest-copy {
+    max-width: 500px;
+    padding: 70px 0;
+    position: relative;
+    z-index: 1;
+
+    h2 {
+      margin-bottom: 30px;
+
+      @include media-breakpoint-up(md) {
+        font-size: 64px;
+      }
+
+      @include media-breakpoint-up(lg) {
+        font-size: 72px;
+      }
+    }
+
+    h5 {
+      margin-bottom: 20px;
+
+      @include media-breakpoint-up(md) {
+        font-size: 30px;
+      }
+    }
+
+    p {
+      @include media-breakpoint-up(md) {
+        max-width: 370px;
+      }
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .btn {
+      margin-bottom: 10px;
+
+      @include media-breakpoint-up(md) {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .contest-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 60%;
+    text-align: right;
+
+    @include media-breakpoint-up(md) {
+      width: 70%;
+    }
+
+    img {
+      height: auto;
+      max-height: 100%;
+      width: 100%;
+      max-width: none;
+
+      @include media-breakpoint-up(md) {
+        height: 100%;
+        width: auto;
+      }
+    }
+  }
+}

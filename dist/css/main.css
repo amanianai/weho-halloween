@@ -9622,7 +9622,8 @@ h2,
 h3,
 h4,
 h5,
-button {
+button,
+.btn {
   font-family: 'Gobold';
   font-style: italic;
   font-weight: normal;
@@ -9749,6 +9750,10 @@ nav a {
   height: 40px;
 }
 
+a.btn {
+  text-decoration: none;
+}
+
 .btn.bg-black {
   color: #fff;
   background: #000;
@@ -9816,70 +9821,6 @@ img {
 
 .bg-photo-spaceer {
   height: 800px;
-}
-
-/* general  */
-@media only screen and (max-width: 480px) {
-  .section-title {
-    font-family: 'Gobold';
-    font-size: 2em;
-    font-weight: bold;
-    font-style: italic;
-    margin-bottom: .75em;
-  }
-}
-
-@media only screen and (min-width: 576px) {
-  #contest .overlap-photo {
-    position: relative;
-    margin-left: 0px;
-  }
-  #contest .overlap-text {
-    position: relative;
-    padding-left: 0;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  #contest .overlap-photo {
-    position: relative;
-    margin-left: 0px;
-  }
-  #contest .overlap-text {
-    position: relative;
-    padding-left: 0;
-  }
-}
-
-@media (min-width: 1200px) {
-  #contest .overlap-photo {
-    position: relative;
-    margin-left: -200px;
-  }
-  #contest .overlap-text {
-    position: relative;
-    padding-left: 100px;
-  }
-}
-
-/* events  */
-@media only screen and (max-width: 480px) {
-  ul.events {
-    margin: 250px 0 100px 80px;
-  }
-}
-
-@media only screen and (min-width: 576px) {
-  ul.events {
-    margin-left: 100px;
-    padding: 100px 0;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  ul.events {
-    margin-left: 100px;
-  }
 }
 
 /* section */
@@ -10113,6 +10054,108 @@ img {
 
 .section--insider-tips .arrow-link {
   color: #7e3beb;
+}
+
+.section--contest {
+  background: url("../images/backgrounds/contest.svg");
+  background-size: cover;
+  padding: 50px 0 50px;
+}
+
+@media (min-width: 992px) {
+  .section--contest {
+    padding: 130px 0 140px;
+  }
+}
+
+.section--contest .contest-content {
+  padding: 0 15px;
+  max-width: 850px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.section--contest .contest-copy {
+  max-width: 500px;
+  padding: 70px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.section--contest .contest-copy h2 {
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .section--contest .contest-copy h2 {
+    font-size: 64px;
+  }
+}
+
+@media (min-width: 992px) {
+  .section--contest .contest-copy h2 {
+    font-size: 72px;
+  }
+}
+
+.section--contest .contest-copy h5 {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .section--contest .contest-copy h5 {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .section--contest .contest-copy p {
+    max-width: 370px;
+  }
+}
+
+.section--contest .contest-copy a {
+  text-decoration: none;
+}
+
+.section--contest .contest-copy .btn {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .section--contest .contest-copy .btn {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+}
+
+.section--contest .contest-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 60%;
+  text-align: right;
+}
+
+@media (min-width: 768px) {
+  .section--contest .contest-image {
+    width: 70%;
+  }
+}
+
+.section--contest .contest-image img {
+  height: auto;
+  max-height: 100%;
+  width: 100%;
+  max-width: none;
+}
+
+@media (min-width: 768px) {
+  .section--contest .contest-image img {
+    height: 100%;
+    width: auto;
+  }
 }
 
 /* footer */

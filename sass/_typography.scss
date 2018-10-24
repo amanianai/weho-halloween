@@ -16,7 +16,8 @@ h2,
 h3,
 h4,
 h5,
-button {
+button,
+.btn {
   font-family: 'Gobold';
   font-style: italic;
   font-weight: normal;
@@ -143,7 +144,10 @@ nav a {
   height: 40px;
 }
 
-//.btn {font-family: }
+a.btn {
+  text-decoration: none;
+}
+
 .btn.bg-black {
   color: #fff;
   background: #000;

@@ -4,6 +4,10 @@
   font-weight: 400;
 }
 
+body {
+  font-family: 'Roboto';
+}
+
 body * {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -179,4 +183,10 @@ a.btn {
     font-weight: 900;
     -webkit-font-smoothing: antialiased;
   }
+}
+
+.copyright {
+  text-align: center;
+  color: black;
+  @include as-rem('font-size', 14px);
 }

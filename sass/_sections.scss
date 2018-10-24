@@ -273,7 +273,7 @@
     }
 
     a {
-      text-decoration: none;
+      //text-decoration: none;
     }
 
     .btn {
@@ -309,5 +309,14 @@
         width: auto;
       }
     }
+  }
+}
+
+.section--connect {
+  .connect-links {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    height: 100%;
   }
 }

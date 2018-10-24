@@ -1,0 +1,40 @@
+# WordPress #
+############
+license.txt
+readme.html
+.htaccess
+sitemap.xml
+sitemap.xml.gz
+*.log
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.bz2
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.tgz
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Thumbs.db
+._*
+
+# Asset Pipeline #
+##################
+node_modules
+mix-manifest.json
+
+# CSS Processing #
+##################
+.sass-cache
+*.map
+style.css.map
+.vscode

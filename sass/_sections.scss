@@ -59,11 +59,12 @@
 .section--things-to-know {
   padding: 50px 0 300px;
   background: url('../images/backgrounds/things-to-know.svg');
-  background-position: center center;
+  background-position: 58% center;
   background-size: cover;
 
   @include media-breakpoint-up(lg) {
     padding: 100px 0 250px;
+    background-position: center center;
   }
 
   h4 {
@@ -136,12 +137,13 @@
   .events-content {
     background: url('../images/backgrounds/events.svg');
     background-size: cover;
-    background-position: top center;
+    background-position: -90px 10px;
     height: 100%;
-    padding: 50px 15px;
+    padding: 90px 15px 50px;
 
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       padding: 195px 15px 100px;
+      background-position: top left;
     }
 
     &__inner {

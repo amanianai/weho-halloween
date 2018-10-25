@@ -11397,7 +11397,6 @@ a.btn {
 }
 
 .arrow-link {
-  font-size: 20px;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
@@ -11405,6 +11404,13 @@ a.btn {
   letter-spacing: 0.5px;
   font-family: 'IM Fell English', serif;
   font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .arrow-link {
+    font-size: 20px;
+    font-size: 1.25rem;
+  }
 }
 
 .arrow-link:after {
@@ -11523,6 +11529,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  z-index: 1;
 }
 
 @media (min-width: 576px) {
@@ -11610,6 +11617,12 @@ img {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+@media (max-width: 767.98px) {
+  .section--things-to-know .things-to-know-list {
+    padding: 0 5%;
+  }
 }
 
 .section--things-to-know .things-to-know-list--left h4 {
@@ -11700,11 +11713,27 @@ img {
   font-family: 'IM Fell English SC', serif;
 }
 
+@media (max-width: 767.98px) {
+  .section--events .events-list li h5 {
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 1em;
+  }
+}
+
 .section--events .events-list li p {
   color: #960e65;
   line-height: 1em;
   margin: 0 0 1.2em;
   font-weight: 400;
+}
+
+@media (max-width: 767.98px) {
+  .section--events .events-list li p {
+    font-size: 12px;
+    font-size: 0.75rem;
+    line-height: 10px;
+  }
 }
 
 .section--events .events-list li p span {
@@ -11727,16 +11756,32 @@ img {
 }
 
 .section--insider-tips p {
-  font-size: 24px;
-  font-size: 1.5rem;
+  font-size: 20px;
+  font-size: 1.25rem;
   color: #4a4a4a;
   font-weight: 500;
   font-family: 'IM Fell English', serif;
 }
 
+@media (min-width: 768px) {
+  .section--insider-tips p {
+    font-size: 24px;
+    font-size: 1.5rem;
+  }
+}
+
 .section--insider-tips h5 {
   color: #4a4a4a;
   margin-bottom: 20px;
+}
+
+@media (max-width: 767.98px) {
+  .section--insider-tips h5 {
+    font-size: 20px;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    line-height: 1em;
+  }
 }
 
 .section--insider-tips .tip-item__inner {
@@ -11807,7 +11852,7 @@ img {
 }
 
 .section--contest .contest-copy p {
-  font-size: 1.4em;
+  font-size: 1.1em;
   line-height: 1.5em;
   word-spacing: 1px;
   font-family: 'IM Fell English', serif;
@@ -11816,6 +11861,7 @@ img {
 @media (min-width: 768px) {
   .section--contest .contest-copy p {
     max-width: 420px;
+    font-size: 1.4em;
   }
 }
 
@@ -11823,6 +11869,13 @@ img {
   color: #390d80;
   font-weight: 600;
   text-decoration: underline;
+}
+
+@media (max-width: 767.98px) {
+  .section--contest .contest-copy a.terms {
+    font-size: 12px;
+    font-size: 0.75rem;
+  }
 }
 
 .section--contest .contest-copy .btn {
@@ -12028,7 +12081,7 @@ img {
 
 @media (max-width: 767.98px) {
   .insider-tips-slider .slick-arrow {
-    top: 110%;
+    top: 40%;
   }
 }
 

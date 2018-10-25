@@ -11473,6 +11473,7 @@ img {
 }
 
 .section__title {
+  font-size: 2rem;
   margin-bottom: .5em;
 }
 
@@ -11580,8 +11581,8 @@ img {
 }
 
 .section--things-to-know h4 {
-  font-size: 2.1rem;
-  line-height: 2.1rem;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
   font-family: 'IM Fell DW Pica SC', serif;
   font-family: 'IM Fell Double Pica SC', serif;
   font-family: 'IM Fell Great Primer SC', serif;
@@ -11590,6 +11591,7 @@ img {
 @media (min-width: 768px) {
   .section--things-to-know h4 {
     font-size: 2.1rem;
+    line-height: 2.1rem;
   }
 }
 

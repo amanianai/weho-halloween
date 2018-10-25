@@ -11164,33 +11164,67 @@ a.plyr__control::after, a.plyr__control::before {
 }
 
 @font-face {
-  font-family: 'Gobold';
-  src: url("../fonts/Gobold-Regular-Italic.otf");
-  font-weight: 400;
+  font-family: 'Gobold Light';
+  src: url("../fonts/Gobold-Light.otf");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Gobold Light Italic';
+  src: url("../fonts/Gobold-Light-Italic.otf");
+  font-style: italic;
+  font-weight: 100;
 }
 
 @font-face {
   font-family: 'Gobold Thin';
-  src: url("../fonts/Gobold-Thin.otf.otf");
+  src: url("../fonts/Gobold-Thin.otf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Gobold Thin Italic';
+  src: url("../fonts/Gobold-Thin-Italic.otf");
+  font-style: italic;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Gobold Regular';
+  src: url("../fonts/Gobold-Regular.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Gobold Regular Italic';
+  src: url("../fonts/Gobold-Regular-Italic.otf");
+  font-style: italic;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Gobold CUTS';
+  src: url("../fonts/Gobold-CUTS.otf");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Gobold';
-  src: url("../fonts/Gobold-Regular-Italic.otf");
-  font-weight: 400;
+  font-family: 'Gobold CUTS Italic';
+  src: url("../fonts/Gobold-CUTS-Italic.otf");
+  font-style: italic;
+  font-weight: 300;
 }
 
 @font-face {
-  font-family: 'Gobold';
-  src: url("../fonts/Gobold-Regular-Italic.otf");
-  font-weight: 400;
+  font-family: 'IM FELL Regular';
+  src: url("../fonts/IM-FELL-Regular.otf");
+  font-weight: 300;
 }
 
 @font-face {
-  font-family: 'Gobold';
-  src: url("../fonts/Gobold-Regular-Italic.otf");
-  font-weight: 400;
+  font-family: 'IM FELL Italic';
+  src: url("../fonts/IM-FELL-Italic.otf");
+  font-weight: 300;
 }
 
 body {
@@ -11205,13 +11239,24 @@ body * {
 
 /* General */
 h1,
-h2,
+h2 {
+  font-family: 'IM Fell DW Pica SC', serif;
+  font-family: 'IM Fell English SC', serif;
+  font-family: 'IM Fell English', serif;
+  font-family: 'IM Fell Great Primer SC', serif;
+  font-family: 'IM Fell English', serif;
+  font-style: italic;
+}
+
 h3,
 h4,
 h5,
 button,
 .btn {
-  font-family: 'Gobold';
+  font-family: 'IM Fell DW Pica SC', serif;
+  font-family: 'IM Fell Double Pica SC', serif;
+  font-family: 'IM Fell Great Primer SC', serif;
+  font-family: 'IM Fell English SC', serif;
   font-style: italic;
   font-weight: normal;
   letter-spacing: 0.5px;
@@ -11253,8 +11298,7 @@ nav a {
 
 /* Fonts */
 .gobold {
-  font-family: 'Gobold';
-  font-style: italic;
+  font-family: 'Gobold Thin Italic';
 }
 
 /* colors */
@@ -11359,6 +11403,8 @@ a.btn {
   font-stretch: normal;
   line-height: normal;
   letter-spacing: 0.5px;
+  font-family: 'IM Fell English', serif;
+  font-size: 1.5rem;
 }
 
 .arrow-link:after {
@@ -11427,13 +11473,12 @@ img {
 }
 
 .section__title {
-  font-family: 'Gobold';
   margin-bottom: .75em;
 }
 
 @media (min-width: 768px) {
   .section__title {
-    font-size: 4rem;
+    font-size: 6rem;
   }
 }
 
@@ -11532,12 +11577,16 @@ img {
 }
 
 .section--things-to-know h4 {
-  font-size: 1.5rem;
+  font-size: 2.1rem;
+  line-height: 2.1rem;
+  font-family: 'IM Fell DW Pica SC', serif;
+  font-family: 'IM Fell Double Pica SC', serif;
+  font-family: 'IM Fell Great Primer SC', serif;
 }
 
 @media (min-width: 768px) {
   .section--things-to-know h4 {
-    font-size: 2rem;
+    font-size: 2.1rem;
   }
 }
 
@@ -11559,11 +11608,11 @@ img {
 }
 
 .section--things-to-know .things-to-know-list--left h4 {
-  color: black;
+  color: #000000;
 }
 
 .section--things-to-know .things-to-know-list--right h4 {
-  color: #9013fe;
+  color: #000000;
 }
 
 .section--things-to-know .things-to-know-list li {
@@ -11607,7 +11656,7 @@ img {
 
 @media (min-width: 992px) {
   .section--events .events-content {
-    padding: 195px 15px 100px;
+    padding: 125px 15px 100px;
     background-position: top left;
   }
 }
@@ -11632,6 +11681,11 @@ img {
 
 .section--events .events-list li {
   line-height: 3em;
+  margin-bottom: 2em;
+}
+
+.section--events .events-list li a {
+  text-decoration: none;
 }
 
 .section--events .events-list li h5 {
@@ -11642,13 +11696,15 @@ img {
 }
 
 .section--events .events-list li p {
-  color: #50e3c2;
+  color: #960e65;
   line-height: 1em;
   margin: 0 0 1.2em;
+  font-weight: 500;
 }
 
 .section--events .events-list li p span {
-  color: #111111;
+  color: #960e65;
+  font-weight: 500;
 }
 
 .section--insider-tips {
@@ -11663,6 +11719,14 @@ img {
   .section--insider-tips {
     padding: 100px 0 200px;
   }
+}
+
+.section--insider-tips p {
+  font-size: 24px;
+  font-size: 1.5rem;
+  color: #4a4a4a;
+  font-weight: 500;
+  font-family: 'IM Fell English', serif;
 }
 
 .section--insider-tips h5 {
@@ -11704,14 +11768,14 @@ img {
 }
 
 .section--contest .contest-copy {
-  max-width: 500px;
+  max-width: 550px;
   padding: 70px 0;
   position: relative;
   z-index: 1;
 }
 
 .section--contest .contest-copy h2 {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 @media (min-width: 768px) {
@@ -11722,29 +11786,38 @@ img {
 
 @media (min-width: 992px) {
   .section--contest .contest-copy h2 {
-    font-size: 72px;
+    font-size: 6rem;
   }
 }
 
 .section--contest .contest-copy h5 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  font-family: 'IM Fell English', serif;
 }
 
 @media (min-width: 768px) {
   .section--contest .contest-copy h5 {
-    font-size: 30px;
+    font-size: 36px;
   }
 }
 
 .section--contest .contest-copy p {
-  font-size: 1.1em;
-  line-height: 1.4em;
+  font-size: 1.4em;
+  line-height: 1.5em;
+  word-spacing: 1px;
+  font-family: 'IM Fell English', serif;
 }
 
 @media (min-width: 768px) {
   .section--contest .contest-copy p {
-    max-width: 370px;
+    max-width: 420px;
   }
+}
+
+.section--contest .contest-copy a.terms {
+  color: #390d80;
+  font-weight: 600;
+  text-decoration: underline;
 }
 
 .section--contest .contest-copy .btn {
@@ -11753,8 +11826,12 @@ img {
 
 @media (min-width: 768px) {
   .section--contest .contest-copy .btn {
-    font-size: 36px;
-    margin-bottom: 20px;
+    font-size: 28px;
+    margin-bottom: 0px;
+    padding: 10px 30px;
+    font-family: 'GoBold CUTS';
+    letter-spacing: 1px;
+    text-transform: none;
   }
 }
 

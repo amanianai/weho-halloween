@@ -7,11 +7,10 @@
   overflow: hidden;
 
   &__title {
-    font-family: 'Gobold';
     margin-bottom: .75em;
 
     @include media-breakpoint-up(md) {
-      font-size: 4rem;
+      font-size: 6rem;
     }
   }
 }
@@ -99,11 +98,17 @@
   }
 
   h4 {
-    font-size: 1.5rem;
+    font-size: 2.1rem;
+    line-height: 2.1rem;
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-family: 'IM Fell Great Primer SC', serif;
+
+    // text-transform: uppercase;
 
     //line-height: 1.1rem;
     @include media-breakpoint-up(md) {
-      font-size: 2rem;
+      font-size: 2.1rem;
     }
 
   }
@@ -125,13 +130,14 @@
 
     &--left {
       h4 {
-        color: black;
+        color: #000000;
       }
     }
 
     &--right {
       h4 {
-        color: #9013fe;
+        // color: #9013fe;
+        color: #000000;
       }
     }
 
@@ -173,7 +179,7 @@
     padding: 240px 15px 50px;
 
     @include media-breakpoint-up(lg) {
-      padding: 195px 15px 100px;
+      padding: 125px 15px 100px;
       background-position: top left;
     }
 
@@ -195,7 +201,13 @@
 
     li {
       line-height: 3em;
+      margin-bottom: 2em;
     }
+
+    li a {
+      text-decoration: none;
+    }
+
 
     li h5 {
       color: #ffffff;
@@ -205,13 +217,17 @@
     }
 
     li p {
-      color: #50e3c2;
+      color: #960e65;
       line-height: 1em;
       margin: 0 0 1.2em;
+      font-weight: 500;
+      // color: #50e3c2;
+
     }
 
     li p span {
-      color: #111111;
+      color: #960e65;
+      font-weight: 500;
     }
   }
 }
@@ -225,6 +241,13 @@
 
   @include media-breakpoint-up(lg) {
     padding: 100px 0 200px;
+  }
+
+  p {
+    @include as-rem('font-size', 24px);
+    color: #4a4a4a;
+    font-weight: 500;
+    font-family: 'IM Fell English', serif;
   }
 
   h5 {
@@ -269,37 +292,41 @@
   }
 
   .contest-copy {
-    max-width: 500px;
+    max-width: 550px;
     padding: 70px 0;
     position: relative;
     z-index: 1;
 
     h2 {
-      margin-bottom: 30px;
+      margin-bottom: 0px;
 
       @include media-breakpoint-up(md) {
         font-size: 64px;
       }
 
       @include media-breakpoint-up(lg) {
-        font-size: 72px;
+        font-size: 6rem;
       }
     }
 
     h5 {
-      margin-bottom: 20px;
+      margin-bottom: 10px;
+      font-family: 'IM Fell English', serif;
+
 
       @include media-breakpoint-up(md) {
-        font-size: 30px;
+        font-size: 36px;
       }
     }
 
     p {
-      font-size: 1.1em;
-      line-height: 1.4em;
+      font-size: 1.4em;
+      line-height: 1.5em;
+      word-spacing: 1px;
+      font-family: 'IM Fell English', serif;
 
       @include media-breakpoint-up(md) {
-        max-width: 370px;
+        max-width: 420px;
       }
     }
 
@@ -307,13 +334,25 @@
       //text-decoration: none;
     }
 
+    a.terms {
+      color: #390d80;
+      font-weight: 600;
+      text-decoration: underline;
+    }
+
     .btn {
       margin-bottom: 10px;
 
       @include media-breakpoint-up(md) {
-        font-size: 36px;
-        margin-bottom: 20px;
+        font-size: 28px;
+        margin-bottom: 0px;
+        padding: 10px 30px;
+        font-family: 'GoBold CUTS';
+        letter-spacing: 1px;
+        text-transform: none;
       }
+
+
     }
   }
 

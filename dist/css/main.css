@@ -11517,8 +11517,6 @@ img {
 #countdown-timer {
   color: white;
   position: absolute;
-  top: 75%;
-  left: 47%;
   -webkit-transform: rotate(-1deg);
           transform: rotate(-1deg);
   -webkit-transform-origin: top left;
@@ -11527,9 +11525,11 @@ img {
   display: -ms-flexbox;
   display: flex;
   z-index: 1;
+  top: 77%;
+  left: 61%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   #countdown-timer {
     top: 80%;
     left: 62%;
@@ -11538,7 +11538,14 @@ img {
 
 #countdown-timer .timer-date {
   display: block;
-  margin-right: 30px;
+  margin-right: 18px;
+}
+
+@media (min-width: 768px) {
+  #countdown-timer .timer-date {
+    display: block;
+    margin-right: 36px;
+  }
 }
 
 #countdown-timer .timer-date__value {

@@ -41,21 +41,26 @@
 #countdown-timer {
   color: white;
   position: absolute;
-  top: 75%;
-  left: 47%;
   transform: rotate(-1deg);
   transform-origin: top left;
   display: flex;
   z-index: 1;
+  top: 77%;
+  left: 61%;
 
-  @include media-breakpoint-up(sm) {
+  @include media-breakpoint-up(md) {
     top: 80%;
     left: 62%;
   }
 
   .timer-date {
     display: block;
-    margin-right: 30px;
+    margin-right: 18px;
+
+    @include media-breakpoint-up(md) {
+      display: block;
+      margin-right: 36px;
+    }
 
     &__value {
       // font-family: 'IM Fell Great Primer SC', serif;
@@ -76,6 +81,8 @@
       color: #2adfdf;
       margin-left: 1px;
       text-align: center;
+
+
     }
   }
 }

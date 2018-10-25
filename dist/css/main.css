@@ -11544,7 +11544,7 @@ img {
 @media (min-width: 768px) {
   #countdown-timer .timer-date {
     display: block;
-    margin-right: 36px;
+    margin-right: 33px;
   }
 }
 
@@ -11555,6 +11555,12 @@ img {
   display: block;
   margin: -3px;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  #countdown-timer .timer-date__value {
+    margin: -5px;
+  }
 }
 
 #countdown-timer .timer-date__unit {

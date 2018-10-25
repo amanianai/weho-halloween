@@ -59,7 +59,7 @@
 
     @include media-breakpoint-up(md) {
       display: block;
-      margin-right: 36px;
+      margin-right: 33px;
     }
 
     &__value {
@@ -71,6 +71,10 @@
       display: block;
       margin: -3px;
       text-align: center;
+
+      @include media-breakpoint-up(md) {
+        margin: -5px;
+      }
     }
 
     &__unit {

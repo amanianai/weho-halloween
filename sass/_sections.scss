@@ -49,8 +49,8 @@
   z-index: 1;
 
   @include media-breakpoint-up(sm) {
-    top: 78.4%;
-    left: 36%;
+    top: 70%;
+    left: 62%;
   }
 
   .timer-date {
@@ -58,13 +58,21 @@
     margin-right: 20px;
 
     &__value {
+      // font-family: 'IM Fell Great Primer SC', serif;
+
+      font-family: 'IM Fell English SC', serif;
+      font-family: 'IM Fell Double Pica', serif;
       font-family: 'IM Fell English', serif;
-      @include as-rem('font-size', 48px);
+      @include as-rem('font-size', 55px);
       display: block;
+      margin: -5px;
     }
 
     &__unit {
-      @include as-rem('font-size', 14px);
+      @include as-rem('font-size', 10px);
+      line-height: 1;
+      letter-spacing: 2px;
+      font-family: 'GoBold Light', serif;
     }
   }
 }

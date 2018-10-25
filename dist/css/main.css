@@ -11253,9 +11253,6 @@ h4,
 h5,
 button,
 .btn {
-  font-family: 'IM Fell DW Pica SC', serif;
-  font-family: 'IM Fell Double Pica SC', serif;
-  font-family: 'IM Fell Great Primer SC', serif;
   font-family: 'IM Fell English SC', serif;
   font-style: italic;
   font-weight: normal;
@@ -11534,8 +11531,8 @@ img {
 
 @media (min-width: 576px) {
   #countdown-timer {
-    top: 78.4%;
-    left: 36%;
+    top: 70%;
+    left: 62%;
   }
 }
 
@@ -11545,15 +11542,21 @@ img {
 }
 
 #countdown-timer .timer-date__value {
+  font-family: 'IM Fell English SC', serif;
+  font-family: 'IM Fell Double Pica', serif;
   font-family: 'IM Fell English', serif;
-  font-size: 48px;
-  font-size: 3rem;
+  font-size: 55px;
+  font-size: 3.4375rem;
   display: block;
+  margin: -5px;
 }
 
 #countdown-timer .timer-date__unit {
-  font-size: 14px;
-  font-size: 0.875rem;
+  font-size: 10px;
+  font-size: 0.625rem;
+  line-height: 1;
+  letter-spacing: 2px;
+  font-family: 'GoBold Light', serif;
 }
 
 .section--festival-info .festival-info-content {

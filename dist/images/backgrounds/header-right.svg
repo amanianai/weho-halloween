@@ -37,6 +37,7 @@
 	.st31{font-size:32px;}
 	.st32{fill:#7F1163;}
 	.st33{font-family:'IM_FELL_French_Canon_Italic';}
+	.st34{fill:#0C0C0B;}
 </style>
 <title>header-right</title>
 <desc>Created with Sketch.</desc>
@@ -842,4 +843,5 @@
 <text transform="matrix(0.9693 -0.2459 0.2459 0.9693 366.991 280.4118)" class="st12 st29 st30">st</text>
 <text transform="matrix(0.9735 -0.2288 0.2288 0.9735 260.4459 321.2659)" class="st12 st29 st31">Oct.</text>
 <text transform="matrix(0.9835 -0.181 0.181 0.9835 247.8752 80.8698)" class="st32 st33 st30">presnts the annual... </text>
+<rect x="301.2" y="354.4" transform="matrix(0.9865 -0.1637 0.1637 0.9865 -59.958 80.063)" class="st34" width="309.4" height="99.1"/>
 </svg>

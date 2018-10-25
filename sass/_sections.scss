@@ -196,6 +196,10 @@
     &__inner {
       max-width: 475px;
       margin: 0 auto;
+
+      @include media-breakpoint-down(sm) {
+        padding: 0 10%;
+      }
     }
   }
 

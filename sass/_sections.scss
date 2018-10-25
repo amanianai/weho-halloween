@@ -58,14 +58,12 @@
     margin-right: 20px;
 
     &__value {
-      // font-family: 'IM Fell Great Primer SC', serif;
-
       font-family: 'IM Fell English SC', serif;
       font-family: 'IM Fell Double Pica', serif;
       font-family: 'IM Fell English', serif;
       @include as-rem('font-size', 55px);
       display: block;
-      margin: -5px;
+      line-height: 1;
     }
 
     &__unit {

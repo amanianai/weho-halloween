@@ -11548,7 +11548,7 @@ img {
   font-size: 55px;
   font-size: 3.4375rem;
   display: block;
-  margin: -5px;
+  line-height: 1;
 }
 
 #countdown-timer .timer-date__unit {

@@ -46,6 +46,7 @@
   transform: rotate(-10deg);
   transform-origin: top left;
   display: flex;
+  z-index: 1;
 
   @include media-breakpoint-up(sm) {
     top: 68.4%;
@@ -133,6 +134,10 @@
     padding: 0;
     list-style: none;
 
+    @include media-breakpoint-down(sm) {
+      padding: 0 5%;
+    }
+
     &--left {
       h4 {
         color: #000000;
@@ -206,7 +211,7 @@
 
     li {
       line-height: 3em;
-       margin-bottom: 1em;
+      margin-bottom: 1em;
     }
 
     li a {
@@ -219,6 +224,11 @@
       line-height: 1.2em;
       font-size: 1.4rem;
       font-family: 'IM Fell English SC', serif;
+
+      @include media-breakpoint-down(sm) {
+        @include as-rem('font-size', 20px);
+        line-height: 1em;
+      }
     }
 
     li p {
@@ -226,7 +236,11 @@
       line-height: 1em;
       margin: 0 0 1.2em;
       font-weight: 400;
-      // color: #50e3c2;
+
+      @include media-breakpoint-down(sm) {
+        @include as-rem('font-size', 12px);
+        line-height: 10px;
+      }
 
     }
 
@@ -249,15 +263,25 @@
   }
 
   p {
-    @include as-rem('font-size', 24px);
+    @include as-rem('font-size', 20px);
     color: #4a4a4a;
     font-weight: 500;
     font-family: 'IM Fell English', serif;
+
+    @include media-breakpoint-up(md) {
+      @include as-rem('font-size', 24px);
+    }
   }
 
   h5 {
     color: #4a4a4a;
     margin-bottom: 20px;
+
+    @include media-breakpoint-down(sm) {
+      @include as-rem('font-size', 20px);
+      margin-bottom: 10px;
+      line-height: 1em;
+    }
   }
 
   .tip-item {
@@ -325,13 +349,14 @@
     }
 
     p {
-      font-size: 1.4em;
+      font-size: 1.1em;
       line-height: 1.5em;
       word-spacing: 1px;
       font-family: 'IM Fell English', serif;
 
       @include media-breakpoint-up(md) {
         max-width: 420px;
+        font-size: 1.4em;
       }
     }
 
@@ -343,6 +368,10 @@
       color: #390d80;
       font-weight: 600;
       text-decoration: underline;
+
+      @include media-breakpoint-down(sm) {
+        @include as-rem('font-size', 12px);
+      }
     }
 
     .btn {

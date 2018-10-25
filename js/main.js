@@ -59,7 +59,7 @@ $(function () {
     var completeText = "Today!";
 
     // Display the result in the element with id="demo"
-    $('#countdown-timer').html('<span class="timer-date"><span class="timer-date__value">' + days + '</span><span class="timer-date__unit">Days</span></span><span class="timer-date"><span class="timer-date__value">' + hours + '</span><span class="timer-date__unit">Hours</span></span><span class="timer-date"><span class="timer-date__value">' + minutes + '</span><span class="timer-date__unit">Minutes</span></span>');
+    $('#countdown-timer').html('<span class="timer-date"><span class="timer-date__value">' + days + '</span><span class="timer-date__unit">Days</span></span><span class="timer-date"><span class="timer-date__value">' + hours + '</span><span class="timer-date__unit">Hours</span></span><span class="timer-date"><span class="timer-date__value">' + minutes + '</span><span class="timer-date__unit">Mins</span></span>');
 
     // If the count down is finished, write some text
     if (distance < 0) {

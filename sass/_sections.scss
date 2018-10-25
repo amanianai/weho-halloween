@@ -64,16 +64,18 @@
       font-family: 'IM Fell Double Pica', serif;
       @include as-rem('font-size', 34px);
       display: block;
-      margin: -1px;
+      margin: -3px;
       text-align: center;
     }
 
     &__unit {
       @include as-rem('font-size', 10px);
+      font-family: 'GoBold Light', serif;
       line-height: 1;
       letter-spacing: 2px;
-      font-family: 'GoBold Light', serif;
-      color: #888;
+      color: #2adfdf;
+      margin-left: 1px;
+      text-align: center;
     }
   }
 }

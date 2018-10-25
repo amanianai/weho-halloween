@@ -11546,17 +11546,19 @@ img {
   font-size: 34px;
   font-size: 2.125rem;
   display: block;
-  margin: -1px;
+  margin: -3px;
   text-align: center;
 }
 
 #countdown-timer .timer-date__unit {
   font-size: 10px;
   font-size: 0.625rem;
+  font-family: 'GoBold Light', serif;
   line-height: 1;
   letter-spacing: 2px;
-  font-family: 'GoBold Light', serif;
-  color: #888;
+  color: #2adfdf;
+  margin-left: 1px;
+  text-align: center;
 }
 
 .section--festival-info .festival-info-content {

@@ -11563,15 +11563,17 @@ img {
 }
 
 .section--things-to-know {
-  padding: 50px 0 300px;
+  padding: 50px 0 200px;
   background: url("../images/backgrounds/things-to-know.svg");
-  background-position: 58% center;
-  background-size: cover;
+  background-position: bottom right 40%;
+  background-size: auto 66%;
+  background-repeat: no-repeat;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .section--things-to-know {
     padding: 100px 0 250px;
+    background-size: cover;
     background-position: center center;
   }
 }

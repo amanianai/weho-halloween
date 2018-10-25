@@ -41,31 +41,31 @@
 #countdown-timer {
   color: white;
   position: absolute;
-  top: 58.4%;
-  left: 36%;
-  transform: rotate(-10deg);
+  top: 75%;
+  left: 47%;
+  transform: rotate(-1deg);
   transform-origin: top left;
   display: flex;
   z-index: 1;
 
   @include media-breakpoint-up(sm) {
-    top: 70%;
+    top: 80%;
     left: 62%;
   }
 
   .timer-date {
     display: block;
-    margin-right: 20px;
+    margin-right: 30px;
 
     &__value {
       // font-family: 'IM Fell Great Primer SC', serif;
-
-      font-family: 'IM Fell English SC', serif;
+      // font-family: 'IM Fell English SC', serif;
+      // font-family: 'IM Fell English', serif;
       font-family: 'IM Fell Double Pica', serif;
-      font-family: 'IM Fell English', serif;
-      @include as-rem('font-size', 55px);
+      @include as-rem('font-size', 34px);
       display: block;
-      margin: -5px;
+      margin: -1px;
+      text-align: center;
     }
 
     &__unit {
@@ -73,6 +73,7 @@
       line-height: 1;
       letter-spacing: 2px;
       font-family: 'GoBold Light', serif;
+      color: #888;
     }
   }
 }

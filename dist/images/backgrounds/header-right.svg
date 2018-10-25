@@ -26,36 +26,34 @@
 	.st20{fill:#2ADFDF;stroke:#000000;stroke-miterlimit:10;}
 	.st21{font-family:'IM_FELL_Double_Pica_Roman';}
 	.st22{letter-spacing:-2;}
-	.st23{fill:#911677;}
-	.st24{font-family:'IM_FELL_English_Italic';}
-	.st25{font-size:48px;}
-	.st26{font-size:21px;}
-	.st27{font-size:24px;}
-	.st28{fill:#960E65;stroke:#960E65;stroke-miterlimit:10;}
-	.st29{font-family:'IM_FELL_Double_Pica_Italic';}
-	.st30{font-size:14px;}
-	.st31{font-size:32px;}
-	.st32{fill:#7F1163;}
-	.st33{font-family:'IM_FELL_French_Canon_Italic';}
-	.st34{fill:#0C0C0B;}
+	.st23{font-family:'IM_FELL_English_Italic';}
+	.st24{font-size:48px;}
+	.st25{font-size:21px;}
+	.st26{font-size:24px;}
+	.st27{stroke:#000000;stroke-miterlimit:10;}
+	.st28{font-family:'IM_FELL_Double_Pica_Italic';}
+	.st29{font-size:14px;}
+	.st30{font-size:32px;}
+	.st31{font-family:'IM_FELL_French_Canon_Italic';}
+	.st32{fill:#231F20;}
 </style>
 <title>header-right</title>
 <desc>Created with Sketch.</desc>
 <g>
-	<text transform="matrix(-5.237369e-02 -0.9986 0.9986 -5.237369e-02 901.4512 374.5262)" class="st11 st15 st27"> </text>
+	<text transform="matrix(-5.237369e-02 -0.9986 0.9986 -5.237369e-02 901.4512 374.5262)" class="st11 st15 st26"> </text>
 </g>
 <g id="Group" transform="translate(301.335433, 309.479136) rotate(-55.000000) translate(-301.335433, -309.479136) translate(64.835433, 107.979136)">
 	<g class="st0">
-		<text transform="matrix(0.788 -0.6157 0.6157 0.788 564.1818 458.1114)" class="st11 st15 st27">October </text>
+		<text transform="matrix(0.788 -0.6157 0.6157 0.788 564.1818 458.1114)" class="st11 st15 st26">October </text>
 	</g>
 	<g class="st0">
 		<text transform="matrix(0.788 -0.6157 0.6157 0.788 633.8195 403.7051)" class="st11 st15" style="font-size:30px;">31</text>
 	</g>
 	<g>
-		<text transform="matrix(0.788 -0.6157 0.6157 0.788 659.7453 383.4493)" class="st11 st15 st27"> </text>
+		<text transform="matrix(0.788 -0.6157 0.6157 0.788 659.7453 383.4493)" class="st11 st15 st26"> </text>
 	</g>
 	<g class="st0">
-		<text transform="matrix(0.788 -0.6157 0.6157 0.788 658.5909 384.3512)" class="st11 st15 st30">st</text>
+		<text transform="matrix(0.788 -0.6157 0.6157 0.788 658.5909 384.3512)" class="st11 st15 st29">st</text>
 	</g>
 	<path id="Fill-4" class="st1" d="M882.3,664.4c-12.7,0-23-10.2-23-22.8l0-104.4c0-12.6,10.3-22.8,23-22.8s23,10.2,23,22.8l0,104.4
 		C905.3,654.2,895,664.4,882.3,664.4"/>
@@ -837,11 +835,27 @@
 </g>
 <text transform="matrix(0.987 -0.1603 0.1603 0.987 310.77 322.6702)" class="st12 st21 st19 st22">31</text>
 <g>
-	<text transform="matrix(0.98 -0.199 0.199 0.98 402.1343 290.706)"><tspan x="0" y="0" class="st23 st24 st25">6</tspan><tspan x="20.5" y="0" class="st23 st24 st26">pm</tspan><tspan x="43.2" y="0" class="st23 st24 st27">            </tspan><tspan x="0" y="28" class="st23 st24 st27"> 10:30pm</tspan></text>
-	<line class="st28" x1="449.6" y1="274.1" x2="489.8" y2="265.5"/>
+	<text transform="matrix(0.98 -0.199 0.199 0.98 402.1343 290.706)"><tspan x="0" y="0" class="st23 st24">6</tspan><tspan x="20.5" y="0" class="st23 st25">pm</tspan><tspan x="43.2" y="0" class="st23 st26">            </tspan><tspan x="0" y="28" class="st23 st26"> 10:30pm</tspan></text>
+	<line class="st27" x1="449.6" y1="274.1" x2="489.8" y2="265.5"/>
 </g>
-<text transform="matrix(0.9693 -0.2459 0.2459 0.9693 366.991 280.4118)" class="st12 st29 st30">st</text>
-<text transform="matrix(0.9735 -0.2288 0.2288 0.9735 260.4459 321.2659)" class="st12 st29 st31">Oct.</text>
-<text transform="matrix(0.9835 -0.181 0.181 0.9835 247.8752 80.8698)" class="st32 st33 st30">presnts the annual... </text>
-<rect x="301.2" y="354.4" transform="matrix(0.9865 -0.1637 0.1637 0.9865 -59.958 80.063)" class="st34" width="309.4" height="99.1"/>
+<text transform="matrix(0.9693 -0.2459 0.2459 0.9693 366.991 280.4118)" class="st12 st28 st29">st</text>
+<text transform="matrix(0.9735 -0.2288 0.2288 0.9735 260.4459 321.2659)" class="st12 st28 st30">Oct.</text>
+<text transform="matrix(0.9835 -0.181 0.181 0.9835 247.8752 80.8698)" class="st31 st29">presnts the annual... </text>
+<g>
+	<polygon class="st32" points="298.1,391.2 305.9,783.4 253.5,784.5 245.6,392.2 271.1,354.7 	"/>
+	<polygon class="st32" points="363.5,392.5 371.3,784.9 318.9,786 311,393.6 336.5,356.1 	"/>
+	<polygon class="st32" points="425.7,399.1 433.5,789.1 381.1,790.1 373.3,400.2 398.7,362.7 	"/>
+	<polygon class="st32" points="497.3,401.7 505.1,794.1 452.7,795.1 444.8,402.7 470.3,365.2 	"/>
+	<polygon class="st32" points="305.3,389.9 312.9,773.1 260.5,774.1 252.8,390.9 255.8,386.5 256.7,385.3 278.3,353.4 	"/>
+	<polygon class="st32" points="369.9,391.2 377.5,774.6 325.1,775.7 317.4,392.3 320.2,388.1 321.2,386.7 342.9,354.8 	"/>
+	<polygon class="st32" points="432.1,394.4 439.7,775.3 387.2,776.3 379.6,395.4 382.6,391 383.4,389.8 405.1,357.9 	"/>
+	<polygon class="st32" points="488.4,405.6 496.1,788.9 443.6,790 436,406.6 439.2,401.8 439.8,401 461.4,369.1 	"/>
+</g>
+<g>
+	<g>
+		<path class="st11" d="M275.3,406.2c-9.1,0-16.5,7.4-16.5,16.5s7.4,16.5,16.5,16.5c9.1,0,16.5-7.4,16.5-16.5
+			S284.4,406.2,275.3,406.2z M281.3,429.2l-0.5,0.5c-0.4,0.4-1.1,0.4-1.5,0l-6.2-5.4c-0.4-0.4-0.7-1.2-0.7-1.7l0.6-9.8
+			c0-0.6,0.5-1,1.1-1h0.7c0.6,0,1.1,0.5,1.1,1l0.5,8.2c0,0.6,0.4,1.4,0.7,1.8l4.3,5C281.7,428.1,281.7,428.8,281.3,429.2z"/>
+	</g>
+</g>
 </svg>

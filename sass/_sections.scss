@@ -187,7 +187,7 @@
     }
 
     &__inner {
-      max-width: 450px;
+      max-width: 475px;
       margin: 0 auto;
     }
   }
@@ -204,7 +204,7 @@
 
     li {
       line-height: 3em;
-      margin-bottom: 2em;
+       margin-bottom: 1em;
     }
 
     li a {
@@ -214,23 +214,23 @@
 
     li h5 {
       color: #ffffff;
-      line-height: 1.4em;
-      font-size: 1.2rem;
-      font-family: "GoBold Thin";
+      line-height: 1.2em;
+      font-size: 1.4rem;
+      font-family: 'IM Fell English SC', serif;
     }
 
     li p {
       color: #960e65;
       line-height: 1em;
       margin: 0 0 1.2em;
-      font-weight: 500;
+      font-weight: 400;
       // color: #50e3c2;
 
     }
 
     li p span {
       color: #960e65;
-      font-weight: 500;
+      font-weight: 400;
     }
   }
 }

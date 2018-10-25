@@ -1,1 +1,88 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 820"><defs><style>.cls-1{fill:#2adfdf;}.cls-2{fill:#8f0848;fill-opacity:0.21;}.cls-3{isolation:isolate;font-size:60px;fill:#7e3beb;font-family:IM_FELL_English_Italic, IM FELL English;font-style:italic;}.cls-4{letter-spacing:-0.01em;}.cls-5,.cls-6{font-size:54px;}.cls-6{letter-spacing:0em;}.cls-7{fill:#9013fe;}</style></defs><title>Artboard 1</title><g id="_11.-photo-gallery" data-name="11.-photo-gallery"><rect id="Background" class="cls-1" x="1" width="960" height="820"/></g><g id="Group-37"><g id="map"><rect id="Rectangle-3" class="cls-2" x="383" y="133" width="197" height="162"/></g><g id="map-copy"><rect id="Rectangle-3-2" data-name="Rectangle-3" class="cls-2" x="585" y="133" width="197" height="162"/></g><g id="map-2" data-name="map"><rect id="Rectangle-3-3" data-name="Rectangle-3" class="cls-2" x="182" y="133" width="196" height="161"/></g><g id="map-3" data-name="map"><rect id="Rectangle-3-4" data-name="Rectangle-3" class="cls-2" x="181" y="300" width="296" height="250"/></g><g id="map-4" data-name="map"><rect id="Rectangle-3-5" data-name="Rectangle-3" class="cls-2" x="483" y="299" width="299" height="252"/></g></g><text class="cls-3" transform="translate(291.2 653.56)">2<tspan class="cls-4" x="27.54" y="0">0</tspan><tspan x="57.77" y="0" xml:space="preserve">17  </tspan><tspan class="cls-5" x="132.1" y="0">photost</tspan><tspan class="cls-6" x="266.04" y="0">r</tspan><tspan class="cls-5" x="284.24" y="0">eam</tspan></text><path id="_" data-name="" class="cls-7" d="M683.8,642.6h28.3v7.6c0,.5.1.8.4.9s.5,0,.9-.4l9.4-9.4a1.5,1.5,0,0,0,0-2.4l-9.4-9.4a.86.86,0,0,0-.9-.3c-.3.1-.4.4-.4.9v7.6H683.8a2.11,2.11,0,0,0-1.3.5,1.9,1.9,0,0,0-.5,1.3v1.6a1.66,1.66,0,0,0,.5,1.2A5,5,0,0,0,683.8,642.6Z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 960 820" style="enable-background:new 0 0 960 820;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#2ADFDF;}
+	.st1{fill:#7E3BEB;}
+	.st2{font-family:'IM_FELL_English_SC';}
+	.st3{font-size:60px;}
+	.st4{font-family:'IM_FELL_English_Italic';}
+	.st5{font-size:54px;}
+	.st6{fill:#9013FE;}
+</style>
+<title>Artboard 1</title>
+<g id="_11.-photo-gallery">
+	<rect id="Background" x="1" class="st0" width="960" height="820"/>
+</g>
+<g>
+	<defs>
+		<rect id="Rectangle-3" x="383.8" y="137" width="200" height="162"/>
+	</defs>
+	<clipPath id="Rectangle-3_1_">
+		<use xlink:href="#Rectangle_x002D_3"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#Rectangle-3_1_);">
+		
+			<image style="overflow:visible;" width="1600" height="1065" xlink:href="../photos/13.jpg"  transform="matrix(0.2172 0 0 0.214 309.3019 109.7715)">
+		</image>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 284.74 648.5601)" class="st1 st2 st3">2017</text>
+<text transform="matrix(1 0 0 1 416.3 651.5601)" class="st1 st4 st5">photostream</text>
+<path id="_" class="st6" d="M675.3,639.6h35.5v7.6c0,0.5,0.1,0.8,0.5,0.9c0.4,0.1,0.6,0,1.1-0.4l11.8-9.4c0.8-0.5,1-1.4,0.4-2.1
+	c-0.1-0.1-0.2-0.2-0.4-0.3l-11.8-9.4c-0.3-0.3-0.7-0.4-1.1-0.3c-0.4,0.1-0.5,0.4-0.5,0.9v7.6h-35.5c-0.6,0-1.2,0.2-1.6,0.5
+	c-0.4,0.4-0.6,0.8-0.6,1.3v1.6c0,0.5,0.2,0.9,0.6,1.2C674.2,639.5,674.7,639.6,675.3,639.6z"/>
+<g>
+	<defs>
+		<rect id="Rectangle-3-3" x="179" y="137.5" width="200" height="161"/>
+	</defs>
+	<clipPath id="Rectangle-3-3_1_">
+		<use xlink:href="#Rectangle_x002D_3_x002D_3"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#Rectangle-3-3_1_);">
+		
+			<image style="overflow:visible;" width="1600" height="1067" xlink:href="../photos/16.jpg"  transform="matrix(0.1592 0 0 0.156 155.6387 131.9585)">
+		</image>
+	</g>
+</g>
+<g>
+	<defs>
+		<rect id="Rectangle-3-5" x="487.1" y="305" width="301.8" height="250"/>
+	</defs>
+	<clipPath id="Rectangle-3-5_1_">
+		<use xlink:href="#Rectangle_x002D_3_x002D_5"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#Rectangle-3-5_1_);">
+		
+			<image style="overflow:visible;" width="1600" height="1067" xlink:href="../photos/15.jpg"  transform="matrix(0.288 0 0 0.2831 412.2415 264.9297)">
+		</image>
+	</g>
+</g>
+<g>
+	<defs>
+		<rect id="Rectangle-3-4" x="179.8" y="305" width="301.8" height="250"/>
+	</defs>
+	<clipPath id="Rectangle-3-4_1_">
+		<use xlink:href="#Rectangle_x002D_3_x002D_4"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#Rectangle-3-4_1_);">
+		
+			<image style="overflow:visible;" width="1600" height="1067" xlink:href="../photos/21.jpg"  transform="matrix(0.2568 0 0 0.2519 135.8891 289.9184)">
+		</image>
+	</g>
+</g>
+<g>
+	<defs>
+		<rect id="Rectangle-3-2" x="588.4" y="137" width="200" height="162"/>
+	</defs>
+	<clipPath id="Rectangle-3-2_1_">
+		<use xlink:href="#Rectangle_x002D_3_x002D_2"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#Rectangle-3-2_1_);">
+		
+			<image style="overflow:visible;" width="1600" height="2405" xlink:href="../photos/7.jpg"  transform="matrix(0.1331 0 0 0.1311 582.928 77.1756)">
+		</image>
+	</g>
+</g>
+</svg>

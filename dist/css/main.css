@@ -11534,7 +11534,7 @@ img {
 
 @media (min-width: 576px) {
   #countdown-timer {
-    top: 68.4%;
+    top: 78.4%;
     left: 36%;
   }
 }
@@ -11545,9 +11545,9 @@ img {
 }
 
 #countdown-timer .timer-date__value {
-  font-family: 'Gobold';
-  font-size: 32px;
-  font-size: 2rem;
+  font-family: 'IM Fell English', serif;
+  font-size: 48px;
+  font-size: 3rem;
   display: block;
 }
 

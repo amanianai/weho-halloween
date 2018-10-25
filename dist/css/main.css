@@ -11684,6 +11684,12 @@ img {
   margin: 0 auto;
 }
 
+@media (max-width: 767.98px) {
+  .section--events .events-content__inner {
+    padding: 0 10%;
+  }
+}
+
 .section--events .events-video {
   background-color: black;
   height: 100%;

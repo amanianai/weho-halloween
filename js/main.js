@@ -64,7 +64,7 @@ $(function () {
     // If the count down is finished, write some text
     if (distance < 0) {
       clearInterval(x);
-      $('#countdown-timer').html('<span class="timer-date"><span class="timer-date__value">' + completeText + '</span></span>');
+      $('#countdown-timer').html('<span class="timer-date"><span class="timer-date__value">0</span><span class="timer-date__unit">Days</span></span><span class="timer-date"><span class="timer-date__value">0</span><span class="timer-date__unit">Hours</span></span><span class="timer-date"><span class="timer-date__value">0</span><span class="timer-date__unit">Mins</span></span>');
     }
   }, 1000);
 });

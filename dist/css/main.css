@@ -11558,25 +11558,25 @@ img {
   display: flex;
   z-index: 1;
   top: 77%;
-  left: 61%;
+  left: 62%;
 }
 
 @media (min-width: 768px) {
   #countdown-timer {
     top: 80%;
-    left: 62%;
+    left: 64%;
   }
 }
 
 #countdown-timer .timer-date {
   display: block;
-  margin-right: 18px;
+  margin-right: 23px;
 }
 
 @media (min-width: 768px) {
   #countdown-timer .timer-date {
     display: block;
-    margin-right: 33px;
+    margin-right: 37px;
   }
 }
 

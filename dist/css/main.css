@@ -11203,6 +11203,13 @@ a.plyr__control::after, a.plyr__control::before {
 }
 
 @font-face {
+  font-family: 'Gobold Bold Italic';
+  src: url("../fonts/Gobold-Bold-Italic.otf");
+  font-style: italic;
+  font-weight: 300;
+}
+
+@font-face {
   font-family: 'Gobold CUTS';
   src: url("../fonts/Gobold-CUTS.otf");
   font-weight: 400;
@@ -12223,4 +12230,591 @@ img {
 
 .plyr.plyr--stopped .plyr__controls {
   display: none;
+}
+
+.intro-countdown-content .cls-1 {
+  fill: #ee509a;
+}
+
+.intro-countdown-content .cls-10,
+.intro-countdown-content .cls-2 {
+  fill: #2adfdf;
+}
+
+.intro-countdown-content .cls-20,
+.intro-countdown-content .cls-25,
+.intro-countdown-content .cls-26,
+.intro-countdown-content .cls-3 {
+  fill: #fff;
+}
+
+.intro-countdown-content .cls-24,
+.intro-countdown-content .cls-4 {
+  fill: none;
+}
+
+.intro-countdown-content .cls-20,
+.intro-countdown-content .cls-21,
+.intro-countdown-content .cls-22,
+.intro-countdown-content .cls-23,
+.intro-countdown-content .cls-25,
+.intro-countdown-content .cls-26,
+.intro-countdown-content .cls-27,
+.intro-countdown-content .cls-5,
+.intro-countdown-content .cls-6,
+.intro-countdown-content .cls-7,
+.intro-countdown-content .cls-8,
+.intro-countdown-content .cls-9 {
+  isolation: isolate;
+}
+
+.intro-countdown-content .cls-6,
+.intro-countdown-content .cls-7 {
+  font-size: 64px;
+  font-family: GoboldBoldItalic-Italic, Gobold Bold Italic;
+}
+
+.intro-countdown-content .cls-14,
+.intro-countdown-content .cls-6,
+.intro-countdown-content .cls-8 {
+  fill: #f8e71c;
+}
+
+.intro-countdown-content .cls-21,
+.intro-countdown-content .cls-22,
+.intro-countdown-content .cls-23,
+.intro-countdown-content .cls-25,
+.intro-countdown-content .cls-26,
+.intro-countdown-content .cls-27,
+.intro-countdown-content .cls-6,
+.intro-countdown-content .cls-7,
+.intro-countdown-content .cls-8,
+.intro-countdown-content .cls-9 {
+  font-style: italic;
+}
+
+.intro-countdown-content .cls-11,
+.intro-countdown-content .cls-7,
+.intro-countdown-content .cls-9 {
+  fill: #7e3beb;
+}
+
+.intro-countdown-content .cls-8,
+.intro-countdown-content .cls-9 {
+  font-size: 85px;
+  font-family: Gobold-Italic, Gobold;
+}
+
+.intro-countdown-content .cls-10,
+.intro-countdown-content .cls-24 {
+  stroke: #000;
+  stroke-miterlimit: 10;
+}
+
+.intro-countdown-content .cls-12 {
+  fill: #3d1717;
+}
+
+.intro-countdown-content .cls-13 {
+  fill: #c06539;
+}
+
+.intro-countdown-content .cls-15 {
+  fill: #f6de5e;
+}
+
+.intro-countdown-content .cls-16 {
+  fill: #cfaf31;
+}
+
+.intro-countdown-content .cls-17 {
+  fill: #9b4b2c;
+}
+
+.intro-countdown-content .cls-18 {
+  fill: #f2beba;
+}
+
+.intro-countdown-content .cls-19 {
+  fill: #eb958e;
+}
+
+.intro-countdown-content .cls-20 {
+  font-size: 84.99px;
+  font-family: IM_FELL_Double_Pica_Roman, IM FELL Double Pica;
+  letter-spacing: -0.02em;
+}
+
+.intro-countdown-content .cls-21 {
+  font-size: 48px;
+}
+
+.intro-countdown-content .cls-21,
+.intro-countdown-content .cls-22,
+.intro-countdown-content .cls-23 {
+  font-family: IM_FELL_English_Italic, IM FELL English;
+}
+
+.intro-countdown-content .cls-22 {
+  font-size: 21px;
+}
+
+.intro-countdown-content .cls-23 {
+  font-size: 24px;
+}
+
+.intro-countdown-content .cls-25,
+.intro-countdown-content .cls-27 {
+  font-size: 14px;
+}
+
+.intro-countdown-content .cls-25,
+.intro-countdown-content .cls-26 {
+  font-family: IM_FELL_Double_Pica_Italic, IM FELL Double Pica;
+}
+
+.intro-countdown-content .cls-26 {
+  font-size: 32px;
+}
+
+.intro-countdown-content .cls-27 {
+  font-family: IM_FELL_French_Canon_Italic, IM FELL French Canon;
+}
+
+.intro-countdown-content .cls-28 {
+  letter-spacing: 0em;
+}
+
+.intro-countdown-content .cls-29 {
+  fill: #231f20;
+}
+
+.festival-info-content .cls-1 {
+  fill: #7e3beb;
+}
+
+.festival-info-content .cls-2,
+.festival-info-content .cls-3 {
+  fill: #4e18af;
+}
+
+.festival-info-content .cls-10,
+.festival-info-content .cls-11,
+.festival-info-content .cls-12,
+.festival-info-content .cls-13,
+.festival-info-content .cls-14,
+.festival-info-content .cls-15,
+.festival-info-content .cls-16,
+.festival-info-content .cls-18,
+.festival-info-content .cls-3,
+.festival-info-content .cls-4,
+.festival-info-content .cls-42,
+.festival-info-content .cls-43,
+.festival-info-content .cls-47,
+.festival-info-content .cls-5,
+.festival-info-content .cls-6,
+.festival-info-content .cls-7,
+.festival-info-content .cls-8,
+.festival-info-content .cls-9 {
+  isolation: isolate;
+}
+
+.festival-info-content .cls-3 {
+  font-size: 14px;
+  font-family: Gobold-Italic, Gobold;
+}
+
+.festival-info-content .cls-10,
+.festival-info-content .cls-15,
+.festival-info-content .cls-16,
+.festival-info-content .cls-18,
+.festival-info-content .cls-3,
+.festival-info-content .cls-5,
+.festival-info-content .cls-6,
+.festival-info-content .cls-7,
+.festival-info-content .cls-8,
+.festival-info-content .cls-9 {
+  font-style: italic;
+}
+
+.festival-info-content .cls-10,
+.festival-info-content .cls-5,
+.festival-info-content .cls-6,
+.festival-info-content .cls-8,
+.festival-info-content .cls-9 {
+  font-size: 36px;
+}
+
+.festival-info-content .cls-10,
+.festival-info-content .cls-11,
+.festival-info-content .cls-12,
+.festival-info-content .cls-13,
+.festival-info-content .cls-14,
+.festival-info-content .cls-15,
+.festival-info-content .cls-16,
+.festival-info-content .cls-19,
+.festival-info-content .cls-22,
+.festival-info-content .cls-27,
+.festival-info-content .cls-31,
+.festival-info-content .cls-5,
+.festival-info-content .cls-6,
+.festival-info-content .cls-7,
+.festival-info-content .cls-8,
+.festival-info-content .cls-9 {
+  fill: #fff;
+}
+
+.festival-info-content .cls-10,
+.festival-info-content .cls-18,
+.festival-info-content .cls-5,
+.festival-info-content .cls-6,
+.festival-info-content .cls-7,
+.festival-info-content .cls-8,
+.festival-info-content .cls-9 {
+  font-family: IM_FELL_English_Italic, IM FELL English;
+}
+
+.festival-info-content .cls-5 {
+  letter-spacing: -0.04em;
+}
+
+.festival-info-content .cls-6 {
+  letter-spacing: -0.02em;
+}
+
+.festival-info-content .cls-13,
+.festival-info-content .cls-14,
+.festival-info-content .cls-7 {
+  font-size: 24px;
+}
+
+.festival-info-content .cls-9 {
+  letter-spacing: 0.02em;
+}
+
+.festival-info-content .cls-10 {
+  letter-spacing: 0.01em;
+}
+
+.festival-info-content .cls-11,
+.festival-info-content .cls-12 {
+  font-size: 42.07px;
+  font-family: IM_FELL_English_SC, IM FELL English SC;
+}
+
+.festival-info-content .cls-12 {
+  letter-spacing: -0.02em;
+}
+
+.festival-info-content .cls-13 {
+  font-family: GoboldThinLight, Gobold Thin Light;
+}
+
+.festival-info-content .cls-14 {
+  font-family: GoboldCUTS, Gobold CUTS;
+  letter-spacing: 0.1em;
+}
+
+.festival-info-content .cls-15 {
+  font-size: 42.71px;
+}
+
+.festival-info-content .cls-15,
+.festival-info-content .cls-16 {
+  font-family: GoboldCUTS-Italic, Gobold CUTS;
+}
+
+.festival-info-content .cls-16 {
+  font-size: 56.94px;
+}
+
+.festival-info-content .cls-17 {
+  letter-spacing: -0.02em;
+}
+
+.festival-info-content .cls-18 {
+  font-size: 48px;
+  fill: #2adfdf;
+}
+
+.festival-info-content .cls-19,
+.festival-info-content .cls-27 {
+  stroke: #fc1610;
+}
+
+.festival-info-content .cls-19,
+.festival-info-content .cls-21,
+.festival-info-content .cls-27,
+.festival-info-content .cls-29,
+.festival-info-content .cls-31,
+.festival-info-content .cls-48,
+.festival-info-content .cls-49,
+.festival-info-content .cls-50,
+.festival-info-content .cls-51,
+.festival-info-content .cls-52,
+.festival-info-content .cls-53,
+.festival-info-content .cls-67,
+.festival-info-content .cls-69 {
+  stroke-miterlimit: 10;
+}
+
+.festival-info-content .cls-19,
+.festival-info-content .cls-65 {
+  stroke-width: 0.25px;
+}
+
+.festival-info-content .cls-20 {
+  fill: #fc1610;
+}
+
+.festival-info-content .cls-21,
+.festival-info-content .cls-26,
+.festival-info-content .cls-29 {
+  fill: #7e43e7;
+}
+
+.festival-info-content .cls-21,
+.festival-info-content .cls-29,
+.festival-info-content .cls-48,
+.festival-info-content .cls-49,
+.festival-info-content .cls-50,
+.festival-info-content .cls-51,
+.festival-info-content .cls-52,
+.festival-info-content .cls-53,
+.festival-info-content .cls-67 {
+  stroke: #000;
+}
+
+.festival-info-content .cls-21,
+.festival-info-content .cls-48,
+.festival-info-content .cls-49,
+.festival-info-content .cls-50,
+.festival-info-content .cls-51,
+.festival-info-content .cls-52,
+.festival-info-content .cls-53,
+.festival-info-content .cls-67 {
+  stroke-width: 0.13px;
+}
+
+.festival-info-content .cls-23,
+.festival-info-content .cls-24,
+.festival-info-content .cls-25,
+.festival-info-content .cls-33,
+.festival-info-content .cls-65,
+.festival-info-content .cls-69 {
+  fill: none;
+}
+
+.festival-info-content .cls-23,
+.festival-info-content .cls-24,
+.festival-info-content .cls-25,
+.festival-info-content .cls-31,
+.festival-info-content .cls-65 {
+  stroke: #7e43e7;
+}
+
+.festival-info-content .cls-23,
+.festival-info-content .cls-24,
+.festival-info-content .cls-25,
+.festival-info-content .cls-65 {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.festival-info-content .cls-23,
+.festival-info-content .cls-24,
+.festival-info-content .cls-25 {
+  stroke-width: 0.5px;
+}
+
+.festival-info-content .cls-24 {
+  stroke-dasharray: 1.93 1.93;
+}
+
+.festival-info-content .cls-25 {
+  stroke-dasharray: 2.01 2.01;
+}
+
+.festival-info-content .cls-27 {
+  stroke-width: 0.15px;
+}
+
+.festival-info-content .cls-28 {
+  fill: url(#linear-gradient);
+}
+
+.festival-info-content .cls-29 {
+  stroke-width: 0.14px;
+}
+
+.festival-info-content .cls-30 {
+  fill: url(#linear-gradient-2);
+}
+
+.festival-info-content .cls-31 {
+  stroke-width: 0.57px;
+}
+
+.festival-info-content .cls-32 {
+  fill: #ee509a;
+}
+
+.festival-info-content .cls-33 {
+  stroke: #fff;
+  stroke-width: 3px;
+}
+
+.festival-info-content .cls-34 {
+  fill: url(#linear-gradient-3);
+}
+
+.festival-info-content .cls-35 {
+  fill: url(#linear-gradient-4);
+}
+
+.festival-info-content .cls-36 {
+  fill: url(#linear-gradient-5);
+}
+
+.festival-info-content .cls-37 {
+  fill: url(#linear-gradient-6);
+}
+
+.festival-info-content .cls-38 {
+  fill: url(#linear-gradient-7);
+}
+
+.festival-info-content .cls-39 {
+  fill: url(#linear-gradient-8);
+}
+
+.festival-info-content .cls-40 {
+  fill: url(#linear-gradient-9);
+}
+
+.festival-info-content .cls-41 {
+  fill: url(#linear-gradient-10);
+}
+
+.festival-info-content .cls-42,
+.festival-info-content .cls-43 {
+  opacity: 0.5;
+}
+
+.festival-info-content .cls-42 {
+  fill: url(#linear-gradient-11);
+}
+
+.festival-info-content .cls-43 {
+  fill: url(#linear-gradient-12);
+}
+
+.festival-info-content .cls-44 {
+  fill: url(#radial-gradient);
+}
+
+.festival-info-content .cls-45 {
+  fill: #896545;
+}
+
+.festival-info-content .cls-46 {
+  fill: url(#radial-gradient-3);
+}
+
+.festival-info-content .cls-47 {
+  opacity: 0.72;
+  fill: url(#radial-gradient-5);
+}
+
+.festival-info-content .cls-48 {
+  fill: #ffde00;
+}
+
+.festival-info-content .cls-49 {
+  fill: #f20;
+}
+
+.festival-info-content .cls-50 {
+  fill: #0fb900;
+}
+
+.festival-info-content .cls-51 {
+  fill: #ff900e;
+}
+
+.festival-info-content .cls-52 {
+  fill: #0057e7;
+}
+
+.festival-info-content .cls-53 {
+  fill: #ff23ff;
+}
+
+.festival-info-content .cls-54 {
+  fill: url(#radial-gradient-7);
+}
+
+.festival-info-content .cls-55 {
+  fill: url(#radial-gradient-8);
+}
+
+.festival-info-content .cls-56 {
+  fill: url(#radial-gradient-9);
+}
+
+.festival-info-content .cls-57 {
+  fill: url(#radial-gradient-10);
+}
+
+.festival-info-content .cls-58 {
+  fill: url(#radial-gradient-11);
+}
+
+.festival-info-content .cls-59 {
+  fill: url(#radial-gradient-12);
+}
+
+.festival-info-content .cls-60 {
+  fill: url(#radial-gradient-13);
+}
+
+.festival-info-content .cls-61 {
+  fill: url(#radial-gradient-14);
+}
+
+.festival-info-content .cls-62 {
+  fill: url(#radial-gradient-15);
+}
+
+.festival-info-content .cls-63 {
+  fill: url(#radial-gradient-17);
+}
+
+.festival-info-content .cls-64 {
+  fill: url(#radial-gradient-19);
+}
+
+.festival-info-content .cls-65 {
+  stroke-dasharray: 1 1;
+}
+
+.festival-info-content .cls-66 {
+  fill: url(#radial-gradient-21);
+}
+
+.festival-info-content .cls-67 {
+  fill: url(#linear-gradient-13);
+}
+
+.festival-info-content .cls-68 {
+  fill: #5e5e5e;
+}
+
+.festival-info-content .cls-69 {
+  stroke: #2adfdf;
+  stroke-width: 5px;
+}
+
+.festival-info-content .cls-70 {
+  opacity: 0.42;
 }

@@ -11203,6 +11203,19 @@ a.plyr__control::after, a.plyr__control::before {
 }
 
 @font-face {
+  font-family: 'Gobold Bold';
+  src: url("../fonts/Gobold-Bold.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Gobold Bold Italic';
+  src: url("../fonts/Gobold-Bold-Italic.otf");
+  font-style: italic;
+  font-weight: 300;
+}
+
+@font-face {
   font-family: 'Gobold Bold Italic';
   src: url("../fonts/Gobold-Bold-Italic.otf");
   font-style: italic;
@@ -12302,7 +12315,7 @@ img {
 .intro-countdown-content .cls-8,
 .intro-countdown-content .cls-9 {
   font-size: 85px;
-  font-family: Gobold-Italic, Gobold;
+  font-family: 'Gobold Regular Italic', 'Gobold Regular';
 }
 
 .intro-countdown-content .cls-10,
@@ -12507,7 +12520,7 @@ img {
 }
 
 .festival-info-content .cls-13 {
-  font-family: GoboldThinLight, Gobold Thin Light;
+  font-family: 'Gobold Thin', 'Gobold Light';
 }
 
 .festival-info-content .cls-14 {

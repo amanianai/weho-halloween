@@ -11486,6 +11486,18 @@ img {
   height: 800px;
 }
 
+.visually-hidden-wrap {
+  position: relative;
+}
+
+.visually-hidden-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  z-index: -1000;
+}
+
 /* section */
 .half-section {
   padding: 50px 0;

@@ -12257,161 +12257,75 @@ img {
   display: none;
 }
 
-.intro-countdown-content .cls-1 {
-  fill: #ee509a;
+.intro-countdown-content .st0 {
+  fill: #EE509A;
 }
 
-.intro-countdown-content .cls-10,
-.intro-countdown-content .cls-2 {
-  fill: #2adfdf;
+.intro-countdown-content .st1 {
+  fill: #2ADFDF;
 }
 
-.intro-countdown-content .cls-20,
-.intro-countdown-content .cls-25,
-.intro-countdown-content .cls-26,
-.intro-countdown-content .cls-3 {
-  fill: #fff;
+.intro-countdown-content .st2 {
+  fill: #FFFFFF;
 }
 
-.intro-countdown-content .cls-24,
-.intro-countdown-content .cls-4 {
+.intro-countdown-content .st3 {
   fill: none;
 }
 
-.intro-countdown-content .cls-20,
-.intro-countdown-content .cls-21,
-.intro-countdown-content .cls-22,
-.intro-countdown-content .cls-23,
-.intro-countdown-content .cls-25,
-.intro-countdown-content .cls-26,
-.intro-countdown-content .cls-27,
-.intro-countdown-content .cls-5,
-.intro-countdown-content .cls-6,
-.intro-countdown-content .cls-7,
-.intro-countdown-content .cls-8,
-.intro-countdown-content .cls-9 {
-  isolation: isolate;
+.intro-countdown-content .st4 {
+  fill: #F8E71C;
 }
 
-.intro-countdown-content .cls-6,
-.intro-countdown-content .cls-7 {
-  font-size: 64px;
-  font-family: 'Gobold Bold Italic', 'Gobold Bold Italic';
+.intro-countdown-content .st5 {
+  fill: #7E3BEB;
 }
 
-.intro-countdown-content .cls-14,
-.intro-countdown-content .cls-6,
-.intro-countdown-content .cls-8 {
-  fill: #f8e71c;
-}
-
-.intro-countdown-content .cls-21,
-.intro-countdown-content .cls-22,
-.intro-countdown-content .cls-23,
-.intro-countdown-content .cls-25,
-.intro-countdown-content .cls-26,
-.intro-countdown-content .cls-27,
-.intro-countdown-content .cls-6,
-.intro-countdown-content .cls-7,
-.intro-countdown-content .cls-8,
-.intro-countdown-content .cls-9 {
-  font-style: italic;
-}
-
-.intro-countdown-content .cls-11,
-.intro-countdown-content .cls-7,
-.intro-countdown-content .cls-9 {
-  fill: #7e3beb;
-}
-
-.intro-countdown-content .cls-8,
-.intro-countdown-content .cls-9 {
-  font-size: 85px;
-  font-family: 'Gobold Regular Italic', 'Gobold Regular';
-}
-
-.intro-countdown-content .cls-10,
-.intro-countdown-content .cls-24 {
-  stroke: #000;
+.intro-countdown-content .st6 {
+  fill: #2ADFDF;
+  stroke: #000000;
   stroke-miterlimit: 10;
 }
 
-.intro-countdown-content .cls-12 {
-  fill: #3d1717;
+.intro-countdown-content .st7 {
+  fill: #3D1717;
 }
 
-.intro-countdown-content .cls-13 {
-  fill: #c06539;
+.intro-countdown-content .st8 {
+  fill: #C06539;
 }
 
-.intro-countdown-content .cls-15 {
-  fill: #f6de5e;
+.intro-countdown-content .st9 {
+  fill: #F6DE5E;
 }
 
-.intro-countdown-content .cls-16 {
-  fill: #cfaf31;
+.intro-countdown-content .st10 {
+  fill: #CFAF31;
 }
 
-.intro-countdown-content .cls-17 {
-  fill: #9b4b2c;
+.intro-countdown-content .st11 {
+  fill: #9B4B2C;
 }
 
-.intro-countdown-content .cls-18 {
-  fill: #f2beba;
+.intro-countdown-content .st12 {
+  fill: #F2BEBA;
 }
 
-.intro-countdown-content .cls-19 {
-  fill: #eb958e;
+.intro-countdown-content .st13 {
+  fill: #EB958E;
 }
 
-.intro-countdown-content .cls-20 {
-  font-size: 84.99px;
-  font-family: 'IM FELL Double Pica Roman', 'IM FELL Double Pica';
-  letter-spacing: -0.02em;
+.intro-countdown-content .st14 {
+  display: none;
+  fill: #EB958E;
 }
 
-.intro-countdown-content .cls-21 {
-  font-size: 48px;
+.intro-countdown-content .st15 {
+  enable-background: new;
 }
 
-.intro-countdown-content .cls-21,
-.intro-countdown-content .cls-22,
-.intro-countdown-content .cls-23 {
-  font-family: 'IM FELL English Italic', 'IM FELL English';
-}
-
-.intro-countdown-content .cls-22 {
-  font-size: 21px;
-}
-
-.intro-countdown-content .cls-23 {
-  font-size: 24px;
-}
-
-.intro-countdown-content .cls-25,
-.intro-countdown-content .cls-27 {
-  font-size: 14px;
-}
-
-.intro-countdown-content .cls-25,
-.intro-countdown-content .cls-26 {
-  font-family: 'IM FELL Double Pica Italic', 'IM FELL Double Pica';
-}
-
-.intro-countdown-content .cls-26 {
-  font-size: 32px;
-}
-
-.intro-countdown-content .cls-27 {
-  font-family: IM_FELL_French_Canon_Italic, IM FELL French Canon;
-}
-
-.intro-countdown-content .cls-28 {
-  letter-spacing: 0em;
-}
-
-.intro-countdown-content .cls-29 {
-  fill: #231f20;
+.intro-countdown-content .st16 {
+  fill: #231F20;
 }
 
 .festival-info-content .cls-1 {

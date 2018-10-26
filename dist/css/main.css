@@ -11203,6 +11203,12 @@ a.plyr__control::after, a.plyr__control::before {
 }
 
 @font-face {
+  font-family: 'Gobold Bold';
+  src: url("../fonts/Gobold-Bold.otf");
+  font-weight: 300;
+}
+
+@font-face {
   font-family: 'Gobold Bold Italic';
   src: url("../fonts/Gobold-Bold-Italic.otf");
   font-style: italic;
@@ -12271,7 +12277,7 @@ img {
 .intro-countdown-content .cls-6,
 .intro-countdown-content .cls-7 {
   font-size: 64px;
-  font-family: GoboldBoldItalic-Italic, Gobold Bold Italic;
+  font-family: 'Gobold Bold Italic', 'Gobold Bold Italic';
 }
 
 .intro-countdown-content .cls-14,
@@ -12302,7 +12308,7 @@ img {
 .intro-countdown-content .cls-8,
 .intro-countdown-content .cls-9 {
   font-size: 85px;
-  font-family: Gobold-Italic, Gobold;
+  font-family: 'Gobold Regular Italic', 'Gobold Regular';
 }
 
 .intro-countdown-content .cls-10,
@@ -12341,7 +12347,7 @@ img {
 
 .intro-countdown-content .cls-20 {
   font-size: 84.99px;
-  font-family: IM_FELL_Double_Pica_Roman, IM FELL Double Pica;
+  font-family: 'IM FELL Double Pica Roman', 'IM FELL Double Pica';
   letter-spacing: -0.02em;
 }
 
@@ -12352,7 +12358,7 @@ img {
 .intro-countdown-content .cls-21,
 .intro-countdown-content .cls-22,
 .intro-countdown-content .cls-23 {
-  font-family: IM_FELL_English_Italic, IM FELL English;
+  font-family: 'IM FELL English Italic', 'IM FELL English';
 }
 
 .intro-countdown-content .cls-22 {
@@ -12370,7 +12376,7 @@ img {
 
 .intro-countdown-content .cls-25,
 .intro-countdown-content .cls-26 {
-  font-family: IM_FELL_Double_Pica_Italic, IM FELL Double Pica;
+  font-family: 'IM FELL Double Pica Italic', 'IM FELL Double Pica';
 }
 
 .intro-countdown-content .cls-26 {
@@ -12471,7 +12477,7 @@ img {
 .festival-info-content .cls-7,
 .festival-info-content .cls-8,
 .festival-info-content .cls-9 {
-  font-family: IM_FELL_English_Italic, IM FELL English;
+  font-family: 'IM FELL Italic', 'IM FELL Regular';
 }
 
 .festival-info-content .cls-5 {
@@ -12499,7 +12505,7 @@ img {
 .festival-info-content .cls-11,
 .festival-info-content .cls-12 {
   font-size: 42.07px;
-  font-family: IM_FELL_English_SC, IM FELL English SC;
+  font-family: 'IM FELL English SC', 'IM FELL English SC';
 }
 
 .festival-info-content .cls-12 {
@@ -12507,11 +12513,11 @@ img {
 }
 
 .festival-info-content .cls-13 {
-  font-family: GoboldThinLight, Gobold Thin Light;
+  font-family: 'Gobold Light';
 }
 
 .festival-info-content .cls-14 {
-  font-family: GoboldCUTS, Gobold CUTS;
+  font-family: 'Gobold CUTS';
   letter-spacing: 0.1em;
 }
 
@@ -12521,7 +12527,7 @@ img {
 
 .festival-info-content .cls-15,
 .festival-info-content .cls-16 {
-  font-family: GoboldCUTS-Italic, Gobold CUTS;
+  font-family: 'Gobold CUTS Italic', 'Gobold CUTS';
 }
 
 .festival-info-content .cls-16 {
